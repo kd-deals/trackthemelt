@@ -2,6 +2,8 @@
  "series": [
   {
    "category": "cent",
+   "country": "US",
+   "currency": "USD",
    "name": "Lincoln Cent",
    "slug": "lincoln-cent",
    "variants": [
@@ -49,6 +51,8 @@
   },
   {
    "category": "nickel",
+   "country": "US",
+   "currency": "USD",
    "name": "Buffalo Nickel",
    "slug": "buffalo-nickel",
    "variants": [
@@ -70,6 +74,8 @@
   },
   {
    "category": "nickel",
+   "country": "US",
+   "currency": "USD",
    "name": "Jefferson Nickel",
    "slug": "jefferson-nickel",
    "variants": [
@@ -120,6 +126,8 @@
   },
   {
    "category": "dime",
+   "country": "US",
+   "currency": "USD",
    "name": "Barber Dime",
    "slug": "barber-dime",
    "variants": [
@@ -141,6 +149,8 @@
   },
   {
    "category": "dime",
+   "country": "US",
+   "currency": "USD",
    "name": "Mercury Dime",
    "slug": "mercury-dime",
    "variants": [
@@ -162,6 +172,8 @@
   },
   {
    "category": "dime",
+   "country": "US",
+   "currency": "USD",
    "name": "Roosevelt Dime",
    "slug": "roosevelt-dime",
    "variants": [
@@ -197,6 +209,8 @@
   },
   {
    "category": "quarter",
+   "country": "US",
+   "currency": "USD",
    "name": "Barber Quarter",
    "slug": "barber-quarter",
    "variants": [
@@ -218,6 +232,8 @@
   },
   {
    "category": "quarter",
+   "country": "US",
+   "currency": "USD",
    "name": "Standing Liberty Quarter",
    "slug": "standing-liberty-quarter",
    "variants": [
@@ -239,6 +255,8 @@
   },
   {
    "category": "quarter",
+   "country": "US",
+   "currency": "USD",
    "name": "Washington Quarter",
    "slug": "washington-quarter",
    "variants": [
@@ -274,6 +292,8 @@
   },
   {
    "category": "half",
+   "country": "US",
+   "currency": "USD",
    "name": "Barber Half Dollar",
    "slug": "barber-half",
    "variants": [
@@ -295,6 +315,8 @@
   },
   {
    "category": "half",
+   "country": "US",
+   "currency": "USD",
    "name": "Walking Liberty Half Dollar",
    "slug": "walking-liberty-half",
    "variants": [
@@ -316,6 +338,8 @@
   },
   {
    "category": "half",
+   "country": "US",
+   "currency": "USD",
    "name": "Franklin Half Dollar",
    "slug": "franklin-half",
    "variants": [
@@ -337,6 +361,8 @@
   },
   {
    "category": "half",
+   "country": "US",
+   "currency": "USD",
    "name": "Kennedy Half Dollar",
    "slug": "kennedy-half",
    "variants": [
@@ -386,6 +412,8 @@
   },
   {
    "category": "dollar",
+   "country": "US",
+   "currency": "USD",
    "name": "Morgan Dollar",
    "slug": "morgan-dollar",
    "variants": [
@@ -407,6 +435,8 @@
   },
   {
    "category": "dollar",
+   "country": "US",
+   "currency": "USD",
    "name": "Peace Dollar",
    "slug": "peace-dollar",
    "variants": [
@@ -428,6 +458,8 @@
   },
   {
    "category": "dollar",
+   "country": "US",
+   "currency": "USD",
    "name": "Eisenhower Dollar",
    "slug": "eisenhower-dollar",
    "variants": [
@@ -463,6 +495,8 @@
   },
   {
    "category": "dollar",
+   "country": "US",
+   "currency": "USD",
    "name": "Susan B. Anthony Dollar",
    "slug": "susan-b-anthony-dollar",
    "variants": [
@@ -484,6 +518,8 @@
   },
   {
    "category": "dollar",
+   "country": "US",
+   "currency": "USD",
    "name": "Sacagawea / Presidential / Native American Dollar",
    "slug": "golden-dollar",
    "variants": [
@@ -507,6 +543,8 @@
   },
   {
    "category": "gold",
+   "country": "US",
+   "currency": "USD",
    "name": "Gold Dollar",
    "slug": "gold-dollar",
    "variants": [
@@ -528,6 +566,8 @@
   },
   {
    "category": "gold",
+   "country": "US",
+   "currency": "USD",
    "name": "$2.50 Quarter Eagle",
    "slug": "quarter-eagle",
    "variants": [
@@ -549,6 +589,8 @@
   },
   {
    "category": "gold",
+   "country": "US",
+   "currency": "USD",
    "name": "$3 Gold Piece",
    "slug": "three-dollar-gold",
    "variants": [
@@ -570,6 +612,8 @@
   },
   {
    "category": "gold",
+   "country": "US",
+   "currency": "USD",
    "name": "$5 Half Eagle",
    "slug": "half-eagle",
    "variants": [
@@ -591,6 +635,8 @@
   },
   {
    "category": "gold",
+   "country": "US",
+   "currency": "USD",
    "name": "$10 Eagle",
    "slug": "eagle",
    "variants": [
@@ -612,6 +658,8 @@
   },
   {
    "category": "gold",
+   "country": "US",
+   "currency": "USD",
    "name": "$20 Double Eagle",
    "slug": "double-eagle",
    "variants": [
@@ -633,6 +681,8 @@
   },
   {
    "category": "bullion",
+   "country": "US",
+   "currency": "USD",
    "name": "American Silver Eagle",
    "slug": "american-silver-eagle",
    "variants": [
@@ -653,6 +703,8 @@
   },
   {
    "category": "bullion",
+   "country": "US",
+   "currency": "USD",
    "name": "American Gold Eagle",
    "slug": "american-gold-eagle",
    "variants": [
@@ -720,6 +772,8 @@
   },
   {
    "category": "bullion",
+   "country": "US",
+   "currency": "USD",
    "name": "American Gold Buffalo",
    "slug": "american-gold-buffalo",
    "variants": [
@@ -740,6 +794,8 @@
   },
   {
    "category": "bullion",
+   "country": "US",
+   "currency": "USD",
    "name": "American Platinum Eagle",
    "slug": "american-platinum-eagle",
    "variants": [
@@ -760,6 +816,8 @@
   },
   {
    "category": "bullion",
+   "country": "US",
+   "currency": "USD",
    "name": "American Palladium Eagle",
    "slug": "american-palladium-eagle",
    "variants": [
@@ -775,6 +833,729 @@
      "slug": "american-palladium-eagle",
      "year_end": null,
      "year_start": 2017
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
+   "name": "Canadian Silver Dime",
+   "slug": "canadian-silver-dime",
+   "variants": [
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.1,
+     "gross_g": 2.33,
+     "label": "80% silver (1920\u20131967)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": "Some 1967 dimes are 50% silver; they look and weigh the same",
+     "slug": "canadian-dime-80",
+     "year_end": 1967,
+     "year_start": 1920
+    },
+    {
+     "composition": "50% silver, 50% copper",
+     "face": 0.1,
+     "gross_g": 2.33,
+     "label": "50% silver (1967\u20131968)",
+     "metals": {
+      "HG": 0.5,
+      "XAG": 0.5
+     },
+     "notes": "1968 dimes are 50% silver or nickel; nickel ones stick to a magnet",
+     "slug": "canadian-dime-50",
+     "year_end": 1968,
+     "year_start": 1967
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
+   "name": "Canadian Silver Quarter",
+   "slug": "canadian-silver-quarter",
+   "variants": [
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.25,
+     "gross_g": 5.83,
+     "label": "80% silver (1920\u20131967)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": "Some 1967 quarters are 50% silver; they look and weigh the same",
+     "slug": "canadian-quarter-80",
+     "year_end": 1967,
+     "year_start": 1920
+    },
+    {
+     "composition": "50% silver, 50% copper",
+     "face": 0.25,
+     "gross_g": 5.83,
+     "label": "50% silver (1967\u20131968)",
+     "metals": {
+      "HG": 0.5,
+      "XAG": 0.5
+     },
+     "notes": "1968 quarters are 50% silver or nickel; nickel ones stick to a magnet",
+     "slug": "canadian-quarter-50",
+     "year_end": 1968,
+     "year_start": 1967
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
+   "name": "Canadian Silver 50 Cents",
+   "slug": "canadian-silver-half",
+   "variants": [
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.5,
+     "gross_g": 11.66,
+     "label": "80% silver (1920\u20131967)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": "1968 and later 50-cent pieces are nickel",
+     "slug": "canadian-half-80",
+     "year_end": 1967,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
+   "name": "Canadian Silver Dollar",
+   "slug": "canadian-silver-dollar",
+   "variants": [
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 1.0,
+     "gross_g": 23.33,
+     "label": "80% silver (1935\u20131967)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": "1968 and later circulating dollars are nickel",
+     "slug": "canadian-dollar-80",
+     "year_end": 1967,
+     "year_start": 1935
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
+   "name": "Silver Maple Leaf",
+   "slug": "silver-maple-leaf",
+   "variants": [
+    {
+     "composition": ".9999 silver",
+     "face": 5.0,
+     "gross_g": 31.11,
+     "label": "1 oz (1988\u2013present)",
+     "metals": {
+      "XAG": 0.9999
+     },
+     "notes": null,
+     "slug": "silver-maple-leaf",
+     "year_end": null,
+     "year_start": 1988
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
+   "name": "Gold Maple Leaf",
+   "slug": "gold-maple-leaf",
+   "variants": [
+    {
+     "composition": ".9999 gold",
+     "face": 50.0,
+     "gross_g": 31.11,
+     "label": "1 oz (1982\u2013present)",
+     "metals": {
+      "XAU": 0.9999
+     },
+     "notes": "1979\u20131982 Gold Maples are .999 fine with the same 1 oz of gold",
+     "slug": "gold-maple-leaf",
+     "year_end": null,
+     "year_start": 1982
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver Peso",
+   "slug": "mexican-silver-peso",
+   "variants": [
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 1.0,
+     "gross_g": 16.66,
+     "label": "72% silver (1920\u20131945)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": "Cap and rays design",
+     "slug": "mexican-peso-720",
+     "year_end": 1945,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 10 Pesos",
+   "slug": "mexican-10-pesos",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 10.0,
+     "gross_g": 28.888,
+     "label": "90% silver (1955\u20131960)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": "Struck 1955\u20131957 and 1960",
+     "slug": "mexican-10-pesos-900",
+     "year_end": 1960,
+     "year_start": 1955
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Silver Libertad",
+   "slug": "silver-libertad",
+   "variants": [
+    {
+     "composition": ".999 silver",
+     "face": 0.0,
+     "gross_g": 31.103,
+     "label": "1 oz (1982\u2013present)",
+     "metals": {
+      "XAG": 0.999
+     },
+     "notes": null,
+     "slug": "silver-libertad",
+     "year_end": null,
+     "year_start": 1982
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Gold 2 Pesos",
+   "slug": "mexican-2-pesos",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 2.0,
+     "gross_g": 1.6666,
+     "label": "90% gold (1919\u20131948)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Most are restrikes dated 1945, with the same gold content",
+     "slug": "mexican-2-pesos-gold",
+     "year_end": 1948,
+     "year_start": 1919
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Gold 50 Pesos (Centenario)",
+   "slug": "mexican-50-pesos",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 50.0,
+     "gross_g": 41.6666,
+     "label": "90% gold (1921\u20131947)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Restrikes dated 1947 have the same 37.5 g of gold",
+     "slug": "mexican-50-pesos-gold",
+     "year_end": 1947,
+     "year_start": 1921
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "UK",
+   "currency": "GBP",
+   "name": "British Silver Sixpence",
+   "slug": "british-sixpence",
+   "variants": [
+    {
+     "composition": "92.5% silver, 7.5% copper",
+     "face": 0.03,
+     "gross_g": 2.83,
+     "label": "Sterling (1816\u20131919)",
+     "metals": {
+      "HG": 0.075,
+      "XAG": 0.925
+     },
+     "notes": null,
+     "slug": "british-sixpence-925",
+     "year_end": 1919,
+     "year_start": 1816
+    },
+    {
+     "composition": "50% silver",
+     "face": 0.03,
+     "gross_g": 2.83,
+     "label": "50% silver (1920\u20131946)",
+     "metals": {
+      "XAG": 0.5
+     },
+     "notes": "1920 sixpences were struck in both alloys",
+     "slug": "british-sixpence-500",
+     "year_end": 1946,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "UK",
+   "currency": "GBP",
+   "name": "British Silver Shilling",
+   "slug": "british-shilling",
+   "variants": [
+    {
+     "composition": "92.5% silver, 7.5% copper",
+     "face": 0.05,
+     "gross_g": 5.65,
+     "label": "Sterling (1816\u20131919)",
+     "metals": {
+      "HG": 0.075,
+      "XAG": 0.925
+     },
+     "notes": null,
+     "slug": "british-shilling-925",
+     "year_end": 1919,
+     "year_start": 1816
+    },
+    {
+     "composition": "50% silver",
+     "face": 0.05,
+     "gross_g": 5.65,
+     "label": "50% silver (1920\u20131946)",
+     "metals": {
+      "XAG": 0.5
+     },
+     "notes": "1947 and later shillings are copper-nickel",
+     "slug": "british-shilling-500",
+     "year_end": 1946,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "UK",
+   "currency": "GBP",
+   "name": "British Silver Florin",
+   "slug": "british-florin",
+   "variants": [
+    {
+     "composition": "92.5% silver, 7.5% copper",
+     "face": 0.1,
+     "gross_g": 11.31,
+     "label": "Sterling (1849\u20131919)",
+     "metals": {
+      "HG": 0.075,
+      "XAG": 0.925
+     },
+     "notes": null,
+     "slug": "british-florin-925",
+     "year_end": 1919,
+     "year_start": 1849
+    },
+    {
+     "composition": "50% silver",
+     "face": 0.1,
+     "gross_g": 11.31,
+     "label": "50% silver (1920\u20131946)",
+     "metals": {
+      "XAG": 0.5
+     },
+     "notes": "1947 and later florins are copper-nickel",
+     "slug": "british-florin-500",
+     "year_end": 1946,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "UK",
+   "currency": "GBP",
+   "name": "British Silver Half Crown",
+   "slug": "british-half-crown",
+   "variants": [
+    {
+     "composition": "92.5% silver, 7.5% copper",
+     "face": 0.13,
+     "gross_g": 14.14,
+     "label": "Sterling (1816\u20131919)",
+     "metals": {
+      "HG": 0.075,
+      "XAG": 0.925
+     },
+     "notes": null,
+     "slug": "british-half-crown-925",
+     "year_end": 1919,
+     "year_start": 1816
+    },
+    {
+     "composition": "50% silver",
+     "face": 0.13,
+     "gross_g": 14.14,
+     "label": "50% silver (1920\u20131946)",
+     "metals": {
+      "XAG": 0.5
+     },
+     "notes": "1947 and later half crowns are copper-nickel",
+     "slug": "british-half-crown-500",
+     "year_end": 1946,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "UK",
+   "currency": "GBP",
+   "name": "Silver Britannia",
+   "slug": "silver-britannia",
+   "variants": [
+    {
+     "composition": ".999 silver",
+     "face": 2.0,
+     "gross_g": 31.21,
+     "label": "1 oz (2013\u2013present)",
+     "metals": {
+      "XAG": 0.999
+     },
+     "notes": "1998\u20132012 Britannias are .958 fine",
+     "slug": "silver-britannia",
+     "year_end": null,
+     "year_start": 2013
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "UK",
+   "currency": "GBP",
+   "name": "British Gold Sovereign",
+   "slug": "gold-sovereign",
+   "variants": [
+    {
+     "composition": "91.67% gold (22 karat), 8.33% copper",
+     "face": 1.0,
+     "gross_g": 7.9881,
+     "label": "Full sovereign (1817\u2013present)",
+     "metals": {
+      "HG": 0.08333,
+      "XAU": 0.91667
+     },
+     "notes": null,
+     "slug": "gold-sovereign",
+     "year_end": null,
+     "year_start": 1817
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Switzerland",
+   "currency": "CHF",
+   "name": "Swiss Silver \u00bd Franc",
+   "slug": "swiss-half-franc",
+   "variants": [
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 0.5,
+     "gross_g": 2.5,
+     "label": "83.5% silver (1875\u20131967)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "1968 and later are copper-nickel",
+     "slug": "swiss-half-franc-835",
+     "year_end": 1967,
+     "year_start": 1875
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Switzerland",
+   "currency": "CHF",
+   "name": "Swiss Silver 1 Franc",
+   "slug": "swiss-1-franc",
+   "variants": [
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 1.0,
+     "gross_g": 5.0,
+     "label": "83.5% silver (1875\u20131967)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "1968 and later are copper-nickel",
+     "slug": "swiss-1-franc-835",
+     "year_end": 1967,
+     "year_start": 1875
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Switzerland",
+   "currency": "CHF",
+   "name": "Swiss Silver 2 Francs",
+   "slug": "swiss-2-francs",
+   "variants": [
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 2.0,
+     "gross_g": 10.0,
+     "label": "83.5% silver (1874\u20131967)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "1968 and later are copper-nickel",
+     "slug": "swiss-2-francs-835",
+     "year_end": 1967,
+     "year_start": 1874
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Switzerland",
+   "currency": "CHF",
+   "name": "Swiss Silver 5 Francs",
+   "slug": "swiss-5-francs",
+   "variants": [
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 5.0,
+     "gross_g": 15.0,
+     "label": "83.5% silver (1931\u20131969)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "1968 5 francs are copper-nickel; 1969 is silver",
+     "slug": "swiss-5-francs-835",
+     "year_end": 1969,
+     "year_start": 1931
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Switzerland",
+   "currency": "CHF",
+   "name": "Swiss Gold 20 Francs (Vreneli)",
+   "slug": "swiss-20-francs-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 20.0,
+     "gross_g": 6.4516,
+     "label": "90% gold (1897\u20131949)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "swiss-20-francs-gold",
+     "year_end": 1949,
+     "year_start": 1897
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Netherlands",
+   "currency": "NLG",
+   "name": "Dutch Silver Guilder",
+   "slug": "dutch-guilder",
+   "variants": [
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 1.0,
+     "gross_g": 10.0,
+     "label": "Wilhelmina (1922\u20131945)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": null,
+     "slug": "dutch-guilder-1922",
+     "year_end": 1945,
+     "year_start": 1922
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 1.0,
+     "gross_g": 6.5,
+     "label": "Juliana (1954\u20131967)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": "1967 and later guilders may be nickel",
+     "slug": "dutch-guilder-1954",
+     "year_end": 1967,
+     "year_start": 1954
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Netherlands",
+   "currency": "NLG",
+   "name": "Dutch Silver 2\u00bd Gulden",
+   "slug": "dutch-2-5-gulden",
+   "variants": [
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 2.5,
+     "gross_g": 25.0,
+     "label": "Wilhelmina (1929\u20131940)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": null,
+     "slug": "dutch-2-5-gulden-1929",
+     "year_end": 1940,
+     "year_start": 1929
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 2.5,
+     "gross_g": 15.0,
+     "label": "Juliana (1959\u20131966)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": null,
+     "slug": "dutch-2-5-gulden-1959",
+     "year_end": 1966,
+     "year_start": 1959
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "South Africa",
+   "currency": "ZAR",
+   "name": "Krugerrand",
+   "slug": "krugerrand",
+   "variants": [
+    {
+     "composition": "91.67% gold, 8.33% copper",
+     "face": 0.0,
+     "gross_g": 33.93,
+     "label": "1 oz (1967\u2013present)",
+     "metals": {
+      "HG": 0.08333,
+      "XAU": 0.91667
+     },
+     "notes": null,
+     "slug": "krugerrand",
+     "year_end": null,
+     "year_start": 1967
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Austria",
+   "currency": "EUR",
+   "name": "Gold Philharmonic",
+   "slug": "gold-philharmonic",
+   "variants": [
+    {
+     "composition": ".9999 gold",
+     "face": 100.0,
+     "gross_g": 31.103,
+     "label": "1 oz (1989\u2013present)",
+     "metals": {
+      "XAU": 0.9999
+     },
+     "notes": null,
+     "slug": "gold-philharmonic",
+     "year_end": null,
+     "year_start": 1989
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Austria",
+   "currency": "EUR",
+   "name": "Silver Philharmonic",
+   "slug": "silver-philharmonic",
+   "variants": [
+    {
+     "composition": ".999 silver",
+     "face": 1.5,
+     "gross_g": 31.1035,
+     "label": "1 oz (2008\u2013present)",
+     "metals": {
+      "XAG": 0.999
+     },
+     "notes": null,
+     "slug": "silver-philharmonic",
+     "year_end": null,
+     "year_start": 2008
     }
    ]
   }
