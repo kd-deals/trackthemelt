@@ -2,6 +2,8 @@ import Header from '../components/Header';
 import CoinTable from '../components/CoinTable';
 import StatTiles from '../components/StatTiles';
 import Releases from '../components/Releases';
+import WorldCards from '../components/WorldCards';
+import { worldCards } from '../lib/worldData';
 import { getData, getRows, GROUPS } from '../lib/data';
 import { SITE_URL, SITE_NAME, TTM_URL } from '../lib/site';
 
@@ -43,10 +45,18 @@ export default function Home() {
 
       <div className="wrap layout">
         <main className="main-col">
-          {GROUPS.map((g) => (
+          {GROUPS.map((g) => (g.key === 'world' ? (
+            <section key="world" id="world" className="group world-home">
+              <div className="group-head world-head">
+                <h2>{g.title}</h2>
+                <a href="/world/">All world coins →</a>
+              </div>
+              <WorldCards cards={worldCards().filter((c) => c.key !== 'bullion')} initial={spot} />
+            </section>
+          ) : (
             <CoinTable key={g.key} id={g.key} title={g.title} blurb={g.blurb}
-              rows={rows.filter((r) => r.group === g.key)} initial={spot} />
-          ))}
+              rows={rows.filter((r) => r.group === g.key)} initial={spot} hideFace={g.key === 'world-bullion'} />
+          )))}
         </main>
         <div className="side-col">
           <a href="/junk-silver-calculator/" className="panel side-cta">

@@ -369,3 +369,22 @@ button { font: inherit; }
 .set-clad { margin: 14px 0 0; }
 .set-table td.mono { white-space: nowrap; }
 .set-table p { margin: 14px 0 0; line-height: 1.6; max-width: 80ch; }
+
+/* World */
+.world-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+.world-card { padding: 16px 18px; display: flex; flex-direction: column; }
+.world-card-title { font-weight: 700; font-size: 17px; color: var(--ink); text-decoration: none; }
+.world-card-title:hover { text-decoration: underline; }
+.world-card ul { list-style: none; margin: 10px 0 0; padding: 0; flex: 1; }
+.world-card li a { display: flex; justify-content: space-between; gap: 10px; padding: 8px 0; border-top: 1px solid var(--line-soft); color: var(--ink); text-decoration: none; font-size: 14px; }
+.world-card li a:hover .wc-name { text-decoration: underline; }
+.world-card .change-all { padding: 10px 0 0; }
+.wc-name { min-width: 0; }
+.world-home { margin-top: 24px; }
+.world-head { display: flex; justify-content: space-between; align-items: baseline; padding: 0; }
+.world-head h2 { margin: 0; }
+.world-guide { margin-top: 14px; max-width: 80ch; }
+.world-guide p { margin: 0 0 10px; line-height: 1.6; }
+.calc-tabs { overflow-x: auto; }
+.calc-tabs a { white-space: nowrap; }
+.mt-head.no-face, .mt-row.no-face { grid-template-columns: minmax(0, 2.2fr) 110px minmax(0, 1.8fr) 110px; }

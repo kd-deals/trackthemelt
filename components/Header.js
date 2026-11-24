@@ -19,7 +19,7 @@ export default function Header({ active }) {
     ['gold', '/#gold', 'Gold'],
     ['bullion', '/#bullion', 'Bullion'],
     ['base', '/#base', 'Pennies & Nickels'],
-    ['world', '/#world', 'World'],
+    ['world', '/world/', 'World'],
     ['junk', '/junk-silver-calculator/', 'Junk Silver Calculator'],
     ['scrap', '/scrap-gold-silver-calculator/', 'Scrap Gold'],
   ];

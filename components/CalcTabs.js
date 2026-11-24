@@ -1,6 +1,8 @@
 export default function CalcTabs({ active }) {
   const tabs = [
     ['junk', '/junk-silver-calculator/', 'Junk Silver'],
+    ['gold', '/junk-silver-calculator/us-gold/', 'US Gold'],
+    ['world', '/junk-silver-calculator/world-coins/', 'World Coins'],
     ['sets', '/junk-silver-calculator/proof-sets/', 'Proof & Mint Sets'],
   ];
   return (

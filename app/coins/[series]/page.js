@@ -6,6 +6,7 @@ import { getData, getSeries, historyFor, GROUPS } from '../../../lib/data';
 import { meltValue, contentLabel, PRECIOUS, METAL_NAME } from '../../../lib/melt';
 import { money, dollars, times, years, shortDate, oz } from '../../../lib/format';
 import { SITE_URL, TTM_URL } from '../../../lib/site';
+import { countryByName } from '../../../lib/world';
 
 export const dynamicParams = false;
 
@@ -107,8 +108,13 @@ export default async function SeriesPage({ params }) {
   if (!s) notFound();
   const { prices, spot, series: all, baseAsOf } = getData();
   const group = s.variants.find((v) => v.group !== 'base')?.group || 'base';
-  const groupInfo = GROUPS.find((g) => g.key === group);
-  const related = all.filter((x) => x.slug !== s.slug && x.variants.some((v) => v.group === group)).slice(0, 8);
+  const isWorld = group === 'world' || group === 'world-bullion';
+  const ctry = group === 'world' ? countryByName(s.country) : null;
+  const groupInfo = isWorld
+    ? { title: ctry ? ctry.title : 'World Bullion Coins', href: `/world/${ctry ? ctry.key : 'bullion'}/` }
+    : { ...GROUPS.find((g) => g.key === group), href: `/#${group}` };
+  const related = all.filter((x) => x.slug !== s.slug && x.variants.some((v) => v.group === group)
+    && (!ctry || x.country === s.country)).slice(0, 8);
   const qa = faqs(s, prices);
   const hasPrecious = s.variants.some((v) => mainMetal(v));
   const usesBase = s.variants.some((v) => ['NI', 'ZN', 'MN'].some((c) => v.content[c]));
@@ -122,18 +128,18 @@ export default async function SeriesPage({ params }) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Coin Melt Values', item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: groupInfo.title, item: `${SITE_URL}/#${group}` },
+      { '@type': 'ListItem', position: 2, name: groupInfo.title, item: `${SITE_URL}${groupInfo.href}` },
       { '@type': 'ListItem', position: 3, name: s.name, item: `${SITE_URL}/coins/${s.slug}/` },
     ],
   };
 
   return (
     <>
-      <Header active={group} />
+      <Header active={isWorld ? 'world' : group} />
       <div className="wrap product">
         <nav className="crumbs" aria-label="Breadcrumb">
           <a href="/">Coin Melt Values</a><span aria-hidden="true">/</span>
-          <a href={`/#${group}`}>{groupInfo.title}</a><span aria-hidden="true">/</span>
+          <a href={groupInfo.href}>{groupInfo.title}</a><span aria-hidden="true">/</span>
           <span>{s.name}</span>
         </nav>
         <h1 className="page-title">{s.name} Melt Value</h1>
@@ -188,7 +194,7 @@ export default async function SeriesPage({ params }) {
 
         {related.length > 0 && (
           <section className="more">
-            <div className="more-head"><h2>Other {groupInfo.title}</h2><a href={`/#${group}`}>All {groupInfo.title.toLowerCase()} →</a></div>
+            <div className="more-head"><h2>Other {groupInfo.title}</h2><a href={groupInfo.href}>All {groupInfo.title.toLowerCase()} →</a></div>
             <div className="more-grid">
               {related.map((r) => (
                 <a key={r.slug} href={`/coins/${r.slug}/`} className="more-card">
