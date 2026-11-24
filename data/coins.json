@@ -9,124 +9,41 @@
      "composition": "95% copper, 5% tin and zinc",
      "face": 0.01,
      "gross_g": 3.11,
-     "label": "Wheat, bronze (1909\u20131942)",
+     "label": "Wheat (1909\u20131958)",
      "metals": {
       "HG": 0.95
      },
-     "notes": "Tin/zinc remainder not valued",
-     "slug": "lincoln-cent-wheat-bronze-1909-1942",
-     "year_end": 1942,
+     "notes": "1943 steel cents are not included. Tin/zinc remainder not valued",
+     "slug": "lincoln-cent-wheat",
+     "year_end": 1958,
      "year_start": 1909
     },
     {
-     "composition": "95% copper, 5% zinc",
+     "composition": "95% copper, 5% zinc or tin and zinc",
      "face": 0.01,
      "gross_g": 3.11,
-     "label": "Wheat, shell-case brass (1944\u20131946)",
-     "metals": {
-      "HG": 0.95,
-      "ZN": 0.05
-     },
-     "notes": null,
-     "slug": "lincoln-cent-wheat-brass-1944-1946",
-     "year_end": 1946,
-     "year_start": 1944
-    },
-    {
-     "composition": "95% copper, 5% tin and zinc",
-     "face": 0.01,
-     "gross_g": 3.11,
-     "label": "Wheat, bronze (1947\u20131958)",
+     "label": "Memorial copper (1959\u20131982)",
      "metals": {
       "HG": 0.95
      },
-     "notes": "Tin/zinc remainder not valued",
-     "slug": "lincoln-cent-wheat-bronze-1947-1958",
-     "year_end": 1958,
-     "year_start": 1947
-    },
-    {
-     "composition": "95% copper, 5% tin and zinc",
-     "face": 0.01,
-     "gross_g": 3.11,
-     "label": "Memorial copper, bronze (1959\u20131962)",
-     "metals": {
-      "HG": 0.95
-     },
-     "notes": "Tin/zinc remainder not valued",
-     "slug": "lincoln-cent-memorial-bronze-1959-1962",
-     "year_end": 1962,
-     "year_start": 1959
-    },
-    {
-     "composition": "95% copper, 5% zinc",
-     "face": 0.01,
-     "gross_g": 3.11,
-     "label": "Memorial copper, brass (1962\u20131982)",
-     "metals": {
-      "HG": 0.95,
-      "ZN": 0.05
-     },
-     "notes": "1982 struck in both: 3.11 g = copper, 2.50 g = zinc",
-     "slug": "lincoln-cent-memorial-brass-1962-1982",
+     "notes": "1982 changed composition mid-year, so the date alone does not tell you which: copper cents weigh 3.11 g, zinc cents 2.5 g",
+     "slug": "lincoln-cent-memorial-copper",
      "year_end": 1982,
-     "year_start": 1962
+     "year_start": 1959
     },
     {
      "composition": "97.5% zinc, 2.5% copper",
      "face": 0.01,
      "gross_g": 2.5,
-     "label": "Zinc: Memorial, Shield (1982\u20132025)",
+     "label": "Zinc (1982\u20132025)",
      "metals": {
       "HG": 0.025,
       "ZN": 0.975
      },
-     "notes": "1982 struck in both: 3.11 g = copper, 2.50 g = zinc. Circulating cent production ended Nov 2025",
-     "slug": "lincoln-cent-zinc-1982-2025",
+     "notes": "1982 changed composition mid-year, so the date alone does not tell you which: copper cents weigh 3.11 g, zinc cents 2.5 g. Circulating cent production ended Nov 2025",
+     "slug": "lincoln-cent-zinc",
      "year_end": 2025,
      "year_start": 1982
-    }
-   ]
-  },
-  {
-   "category": "nickel",
-   "name": "Shield Nickel",
-   "slug": "shield-nickel",
-   "variants": [
-    {
-     "composition": "75% copper, 25% nickel",
-     "face": 0.05,
-     "gross_g": 5.0,
-     "label": "Copper-nickel (1866\u20131883)",
-     "metals": {
-      "HG": 0.75,
-      "NI": 0.25
-     },
-     "notes": null,
-     "slug": "shield-nickel",
-     "year_end": 1883,
-     "year_start": 1866
-    }
-   ]
-  },
-  {
-   "category": "nickel",
-   "name": "Liberty Head Nickel",
-   "slug": "liberty-nickel",
-   "variants": [
-    {
-     "composition": "75% copper, 25% nickel",
-     "face": 0.05,
-     "gross_g": 5.0,
-     "label": "Copper-nickel (1883\u20131912)",
-     "metals": {
-      "HG": 0.75,
-      "NI": 0.25
-     },
-     "notes": null,
-     "slug": "liberty-nickel",
-     "year_end": 1912,
-     "year_start": 1883
     }
    ]
   },
