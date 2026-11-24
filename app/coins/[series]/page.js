@@ -5,7 +5,7 @@ import MeltChart from '../../../components/MeltChart';
 import { getData, getSeries, historyFor, GROUPS } from '../../../lib/data';
 import { meltValue, contentLabel, PRECIOUS, METAL_NAME } from '../../../lib/melt';
 import { money, dollars, times, years, shortDate, oz } from '../../../lib/format';
-import { SITE_URL, TTM_URL } from '../../../lib/site';
+import { SITE_URL, SITE_NAME, TTM_URL } from '../../../lib/site';
 import { countryByName } from '../../../lib/world';
 
 export const dynamicParams = false;
@@ -109,7 +109,7 @@ export async function generateMetadata({ params }) {
     title: { absolute: title },   // keyword question in full; skip the site-name suffix
     description: desc,
     alternates: { canonical: `/coins/${s.slug}/` },
-    openGraph: { title, description: desc, url: `/coins/${s.slug}/`, images: [{ url: `/og/${s.slug}.png`, width: 1200, height: 630 }] },
+    openGraph: { siteName: SITE_NAME, type: 'website', title, description: desc, url: `/coins/${s.slug}/`, images: [{ url: `/og/${s.slug}.png`, width: 1200, height: 630 }] },
     twitter: { card: 'summary_large_image', images: [`/og/${s.slug}.png`] },
   };
 }

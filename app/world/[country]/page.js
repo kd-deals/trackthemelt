@@ -3,7 +3,7 @@ import Header from '../../../components/Header';
 import CoinTable from '../../../components/CoinTable';
 import { getData, getRows } from '../../../lib/data';
 import { worldPages, worldSeries } from '../../../lib/worldData';
-import { SITE_URL } from '../../../lib/site';
+import { SITE_URL, SITE_NAME } from '../../../lib/site';
 
 export const dynamicParams = false;
 
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
   if (!c) return {};
   const title = `${c.title} Melt Value`;
   const description = `Live melt value and silver or gold content of ${c.title.toLowerCase()}: ${worldSeries(c.key).map((s) => s.name).join(', ')}.`;
-  return { title, description, alternates: { canonical: `/world/${c.key}/` }, openGraph: { title, description, url: `/world/${c.key}/`, images: [{ url: '/og/home.png', width: 1200, height: 630 }] } };
+  return { title, description, alternates: { canonical: `/world/${c.key}/` }, openGraph: { siteName: SITE_NAME, type: 'website', title, description, url: `/world/${c.key}/`, images: [{ url: '/og/home.png', width: 1200, height: 630 }] } };
 }
 
 export default async function CountryPage({ params }) {
