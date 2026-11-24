@@ -106,10 +106,11 @@ export async function generateMetadata({ params }) {
   const desc = summary(s, prices, spot.t);
   const title = `${s.name} Melt Value: How Much Is ${ASK[s.slug] || 'It'} Worth?`;
   return {
-    title,
+    title: { absolute: title },   // keyword question in full; skip the site-name suffix
     description: desc,
     alternates: { canonical: `/coins/${s.slug}/` },
-    openGraph: { title, description: desc, url: `/coins/${s.slug}/` },
+    openGraph: { title, description: desc, url: `/coins/${s.slug}/`, images: [{ url: `/og/${s.slug}.png`, width: 1200, height: 630 }] },
+    twitter: { card: 'summary_large_image', images: [`/og/${s.slug}.png`] },
   };
 }
 

@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
   if (!c) return {};
   const title = `${c.title} Melt Value`;
   const description = `Live melt value and silver or gold content of ${c.title.toLowerCase()}: ${worldSeries(c.key).map((s) => s.name).join(', ')}.`;
-  return { title, description, alternates: { canonical: `/world/${c.key}/` }, openGraph: { title, description, url: `/world/${c.key}/` } };
+  return { title, description, alternates: { canonical: `/world/${c.key}/` }, openGraph: { title, description, url: `/world/${c.key}/`, images: [{ url: '/og/home.png', width: 1200, height: 630 }] } };
 }
 
 export default async function CountryPage({ params }) {

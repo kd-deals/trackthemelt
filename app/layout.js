@@ -6,7 +6,8 @@ export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: `Coin Melt Value Calculator: Live Silver & Gold Coin Values | ${SITE_NAME}`, template: `%s | ${SITE_NAME}` },
   description: 'Live melt value of US and world coins: pre-1965 junk silver, 40% silver, war nickels, pennies, US gold, bullion, proof sets and Mexican, Canadian, British and other silver and gold coins at current spot prices.',
-  openGraph: { siteName: SITE_NAME, type: 'website' },
+  openGraph: { siteName: SITE_NAME, type: 'website', images: [{ url: '/og/home.png', width: 1200, height: 630 }] },
+  twitter: { card: 'summary_large_image', images: ['/og/home.png'] },
 };
 
 export default function RootLayout({ children }) {
