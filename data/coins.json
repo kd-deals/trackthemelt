@@ -2,61 +2,6 @@
  "series": [
   {
    "category": "cent",
-   "name": "Flying Eagle Cent",
-   "slug": "flying-eagle-cent",
-   "variants": [
-    {
-     "composition": "88% copper, 12% nickel",
-     "face": 0.01,
-     "gross_g": 4.67,
-     "label": "Copper-nickel (1856\u20131858)",
-     "metals": {
-      "HG": 0.88,
-      "NI": 0.12
-     },
-     "notes": null,
-     "slug": "flying-eagle-cent",
-     "year_end": 1858,
-     "year_start": 1856
-    }
-   ]
-  },
-  {
-   "category": "cent",
-   "name": "Indian Head Cent",
-   "slug": "indian-head-cent",
-   "variants": [
-    {
-     "composition": "88% copper, 12% nickel",
-     "face": 0.01,
-     "gross_g": 4.67,
-     "label": "Copper-nickel (1859\u20131864)",
-     "metals": {
-      "HG": 0.88,
-      "NI": 0.12
-     },
-     "notes": null,
-     "slug": "indian-head-cent-cn",
-     "year_end": 1864,
-     "year_start": 1859
-    },
-    {
-     "composition": "95% copper, 5% tin and zinc",
-     "face": 0.01,
-     "gross_g": 3.11,
-     "label": "Bronze (1864\u20131909)",
-     "metals": {
-      "HG": 0.95
-     },
-     "notes": "Tin/zinc remainder not valued",
-     "slug": "indian-head-cent-bronze",
-     "year_end": 1909,
-     "year_start": 1864
-    }
-   ]
-  },
-  {
-   "category": "cent",
    "name": "Lincoln Cent",
    "slug": "lincoln-cent",
    "variants": [
@@ -64,37 +9,26 @@
      "composition": "95% copper, 5% tin and zinc",
      "face": 0.01,
      "gross_g": 3.11,
-     "label": "Bronze (1909\u20131942)",
+     "label": "Wheat, bronze (1909\u20131942)",
      "metals": {
       "HG": 0.95
      },
      "notes": "Tin/zinc remainder not valued",
-     "slug": "lincoln-cent-bronze-1909-1942",
+     "slug": "lincoln-cent-wheat-bronze-1909-1942",
      "year_end": 1942,
      "year_start": 1909
-    },
-    {
-     "composition": "Zinc-coated steel",
-     "face": 0.01,
-     "gross_g": 2.7,
-     "label": "Steel (1943)",
-     "metals": {},
-     "notes": "No tracked metal value",
-     "slug": "lincoln-cent-steel-1943",
-     "year_end": 1943,
-     "year_start": 1943
     },
     {
      "composition": "95% copper, 5% zinc",
      "face": 0.01,
      "gross_g": 3.11,
-     "label": "Shell-case brass (1944\u20131946)",
+     "label": "Wheat, shell-case brass (1944\u20131946)",
      "metals": {
       "HG": 0.95,
       "ZN": 0.05
      },
      "notes": null,
-     "slug": "lincoln-cent-brass-1944-1946",
+     "slug": "lincoln-cent-wheat-brass-1944-1946",
      "year_end": 1946,
      "year_start": 1944
     },
@@ -102,26 +36,39 @@
      "composition": "95% copper, 5% tin and zinc",
      "face": 0.01,
      "gross_g": 3.11,
-     "label": "Bronze (1947\u20131962)",
+     "label": "Wheat, bronze (1947\u20131958)",
      "metals": {
       "HG": 0.95
      },
      "notes": "Tin/zinc remainder not valued",
-     "slug": "lincoln-cent-bronze-1947-1962",
-     "year_end": 1962,
+     "slug": "lincoln-cent-wheat-bronze-1947-1958",
+     "year_end": 1958,
      "year_start": 1947
+    },
+    {
+     "composition": "95% copper, 5% tin and zinc",
+     "face": 0.01,
+     "gross_g": 3.11,
+     "label": "Memorial copper, bronze (1959\u20131962)",
+     "metals": {
+      "HG": 0.95
+     },
+     "notes": "Tin/zinc remainder not valued",
+     "slug": "lincoln-cent-memorial-bronze-1959-1962",
+     "year_end": 1962,
+     "year_start": 1959
     },
     {
      "composition": "95% copper, 5% zinc",
      "face": 0.01,
      "gross_g": 3.11,
-     "label": "Brass (1962\u20131982)",
+     "label": "Memorial copper, brass (1962\u20131982)",
      "metals": {
       "HG": 0.95,
       "ZN": 0.05
      },
-     "notes": "1982 struck in both compositions: 3.11 g = copper, 2.50 g = zinc",
-     "slug": "lincoln-cent-brass-1962-1982",
+     "notes": "1982 struck in both: 3.11 g = copper, 2.50 g = zinc",
+     "slug": "lincoln-cent-memorial-brass-1962-1982",
      "year_end": 1982,
      "year_start": 1962
     },
@@ -129,91 +76,15 @@
      "composition": "97.5% zinc, 2.5% copper",
      "face": 0.01,
      "gross_g": 2.5,
-     "label": "Copper-plated zinc (1982\u2013present)",
+     "label": "Zinc: Memorial, Shield (1982\u20132025)",
      "metals": {
       "HG": 0.025,
       "ZN": 0.975
      },
-     "notes": "1982 struck in both compositions: 3.11 g = copper, 2.50 g = zinc",
-     "slug": "lincoln-cent-zinc-1982-present",
-     "year_end": null,
+     "notes": "1982 struck in both: 3.11 g = copper, 2.50 g = zinc. Circulating cent production ended Nov 2025",
+     "slug": "lincoln-cent-zinc-1982-2025",
+     "year_end": 2025,
      "year_start": 1982
-    }
-   ]
-  },
-  {
-   "category": "two_cent",
-   "name": "Two-Cent Piece",
-   "slug": "two-cent-piece",
-   "variants": [
-    {
-     "composition": "95% copper, 5% tin and zinc",
-     "face": 0.02,
-     "gross_g": 6.22,
-     "label": "Bronze (1864\u20131873)",
-     "metals": {
-      "HG": 0.95
-     },
-     "notes": "Tin/zinc remainder not valued",
-     "slug": "two-cent-piece",
-     "year_end": 1873,
-     "year_start": 1864
-    }
-   ]
-  },
-  {
-   "category": "three_cent",
-   "name": "Three-Cent Silver",
-   "slug": "three-cent-silver",
-   "variants": [
-    {
-     "composition": "75% silver, 25% copper",
-     "face": 0.03,
-     "gross_g": 0.8,
-     "label": "75% silver (1851\u20131853)",
-     "metals": {
-      "HG": 0.25,
-      "XAG": 0.75
-     },
-     "notes": null,
-     "slug": "three-cent-silver-1851-1853",
-     "year_end": 1853,
-     "year_start": 1851
-    },
-    {
-     "composition": "90% silver, 10% copper",
-     "face": 0.03,
-     "gross_g": 0.75,
-     "label": "90% silver (1854\u20131873)",
-     "metals": {
-      "HG": 0.1,
-      "XAG": 0.9
-     },
-     "notes": null,
-     "slug": "three-cent-silver-1854-1873",
-     "year_end": 1873,
-     "year_start": 1854
-    }
-   ]
-  },
-  {
-   "category": "three_cent",
-   "name": "Three-Cent Nickel",
-   "slug": "three-cent-nickel",
-   "variants": [
-    {
-     "composition": "75% copper, 25% nickel",
-     "face": 0.03,
-     "gross_g": 1.94,
-     "label": "Copper-nickel (1865\u20131889)",
-     "metals": {
-      "HG": 0.75,
-      "NI": 0.25
-     },
-     "notes": null,
-     "slug": "three-cent-nickel",
-     "year_end": 1889,
-     "year_start": 1865
     }
    ]
   },
