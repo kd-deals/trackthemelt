@@ -356,3 +356,16 @@ button { font: inherit; }
 .deal-empty { font-style: italic; }
 .step-hint { width: 80px; }
 .gap-top { margin-top: 24px; }
+
+/* Calculator tabs + sets */
+.calc-tabs { display: flex; gap: 4px; margin-top: 22px; border-bottom: 1px solid var(--line); }
+.calc-tabs a { padding: 10px 16px; font-weight: 600; font-size: 15px; color: var(--muted); text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.calc-tabs a:hover { color: var(--ink); }
+.calc-tabs a.on { color: var(--ink); border-bottom-color: var(--copper); }
+.calc-tabs + .calc { margin-top: 16px; }
+.set-group-title { margin: 18px 0 2px; font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.set-years { font-weight: 400; font-size: 13px; color: var(--muted); margin-left: 6px; }
+.set-line .step-hint { width: 96px; }
+.set-clad { margin: 14px 0 0; }
+.set-table td.mono { white-space: nowrap; }
+.set-table p { margin: 14px 0 0; line-height: 1.6; max-width: 80ch; }

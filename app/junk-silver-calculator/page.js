@@ -1,5 +1,6 @@
 import Header from '../../components/Header';
 import JunkCalc from '../../components/JunkCalc';
+import CalcTabs from '../../components/CalcTabs';
 import { getData } from '../../lib/data';
 import { SITE_URL, SITE_NAME } from '../../lib/site';
 
@@ -43,6 +44,7 @@ export default function JunkPage() {
           {' '}{kinds[1].ozPerDollar.toFixed(4)} oz each, so they're counted separately. 40% halves hold
           {' '}{kinds[2].ozPerDollar.toFixed(4)} oz per $1 face and war nickels {kinds[4].ozPerDollar.toFixed(4)} oz.
         </p>
+        <CalcTabs active="junk" />
         <JunkCalc kinds={kinds} coins={coins} initial={spot} />
         <section className="panel p-specs prose">
           <h2>How Junk Silver Is Priced</h2>

@@ -17,6 +17,7 @@ export function GET() {
     '',
     '## Tools',
     `- [Junk silver calculator](${SITE_URL}/junk-silver-calculator/): melt value of 90% silver, Morgan/Peace dollars, 40% silver and war nickels by face value or coin count, roll presets, and a deal analyzer (multiple of face, percent of melt)`,
+    `- [Proof & mint set melt calculator](${SITE_URL}/junk-silver-calculator/proof-sets/): silver content and melt value of US proof, mint, silver proof and Limited Edition sets (1936–present)`,
     `- [Scrap gold & silver calculator](${SITE_URL}/scrap-gold-silver-calculator/): scrap value of 10K–24K gold, sterling and coin silver, and platinum by weight (grams, pennyweight, troy oz), with per-gram prices`,
     `- [All coin melt values](${SITE_URL}/): every coin type on one page`,
     '',
