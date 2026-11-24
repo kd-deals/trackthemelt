@@ -56,6 +56,10 @@ export default function About() {
             {SITE_NAME} shows what the metal in coins is worth at current spot prices: pre-1965 silver, 40% silver,
             wartime nickels, pennies and nickels, US gold, American Eagles, proof sets and common world silver and gold.
           </p>
+          <p>
+            It was built as a free replacement for Coinflation after that site went offline, with a junk silver
+            calculator, proof set values and world coins added.
+          </p>
           <h2>How Melt Value Is Calculated</h2>
           <p>
             Each coin's melt value is its weight × the share of each metal × that metal's spot price, using the coin's

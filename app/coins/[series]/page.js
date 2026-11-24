@@ -87,13 +87,24 @@ function faqs(s, prices) {
   return out;
 }
 
+// Search phrasing per series ("how much is a silver quarter worth").
+const ASK = {
+  'lincoln-cent': 'a Copper Penny', 'jefferson-nickel': 'a War Nickel',
+  'barber-dime': 'a Silver Dime', 'mercury-dime': 'a Silver Dime', 'roosevelt-dime': 'a Silver Dime',
+  'barber-quarter': 'a Silver Quarter', 'standing-liberty-quarter': 'a Silver Quarter', 'washington-quarter': 'a Silver Quarter',
+  'barber-half': 'a Silver Half Dollar', 'walking-liberty-half': 'a Silver Half Dollar', 'franklin-half': 'a Silver Half Dollar',
+  'kennedy-half': 'a Silver Kennedy Half', 'morgan-dollar': 'a Morgan Silver Dollar', 'peace-dollar': 'a Peace Silver Dollar',
+  'eisenhower-dollar': 'a Silver Ike Dollar', 'double-eagle': 'a $20 Gold Coin', 'eagle': 'a $10 Gold Coin',
+  'half-eagle': 'a $5 Gold Coin', 'quarter-eagle': 'a $2.50 Gold Coin', 'american-silver-eagle': 'a Silver Eagle',
+};
+
 export async function generateMetadata({ params }) {
   const { series } = await params;
   const s = getSeries(series);
   if (!s) return {};
   const { prices, spot } = getData();
   const desc = summary(s, prices, spot.t);
-  const title = `${s.name} Melt Value`;
+  const title = `${s.name} Melt Value: How Much Is ${ASK[s.slug] || 'It'} Worth?`;
   return {
     title,
     description: desc,

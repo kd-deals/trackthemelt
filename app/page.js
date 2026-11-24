@@ -27,7 +27,7 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@graph': [
       { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: `${SITE_URL}/`, name: SITE_NAME,
-        description: 'Live melt value of US coins at current gold, silver and copper spot prices.', inLanguage: 'en-US' },
+        description: 'Live melt value of US and world coins at current gold, silver and copper spot prices.', inLanguage: 'en-US' },
       { '@type': 'Organization', '@id': `${SITE_URL}/#org`, name: SITE_NAME, url: `${SITE_URL}/`, logo: `${SITE_URL}/icon.svg`, sameAs: [TTM_URL] },
       { '@type': 'ItemList', name: 'US coin melt values',
         itemListElement: getData().series.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: `${x.name} melt value`, url: `${SITE_URL}/coins/${x.slug}/` })) },

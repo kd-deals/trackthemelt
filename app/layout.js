@@ -4,8 +4,8 @@ import { SITE_URL, SITE_NAME, TTM_URL, GA_ID } from '../lib/site';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: `${SITE_NAME}: Live melt value of US coins`, template: `%s | ${SITE_NAME}` },
-  description: 'Live melt value of US coins: pre-1965 silver, 40% silver, war nickels, pennies, nickels, pre-1933 gold and American Eagle bullion, at current spot prices.',
+  title: { default: `Coin Melt Value Calculator: Live Silver & Gold Coin Values | ${SITE_NAME}`, template: `%s | ${SITE_NAME}` },
+  description: 'Live melt value of US and world coins: pre-1965 junk silver, 40% silver, war nickels, pennies, US gold, bullion, proof sets and Mexican, Canadian, British and other silver and gold coins at current spot prices.',
   openGraph: { siteName: SITE_NAME, type: 'website' },
 };
 
