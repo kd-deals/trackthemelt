@@ -9,7 +9,6 @@ const PRESETS = [
   ['$5 dime roll', 'dime', 50],
   ['$10 quarter roll', 'quarter', 40],
   ['$10 half roll', 'half', 20],
-  ['$20 dollar roll', 'dollar', 20],
   ['$10 40% half roll', 'half40', 20],
   ['$2 war nickel roll', 'war', 40],
   ['$250 dime box', 'dime', 2500],
