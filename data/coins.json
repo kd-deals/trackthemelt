@@ -1004,9 +1004,241 @@
    "category": "world",
    "country": "Mexico",
    "currency": "MXN",
+   "name": "Mexican Silver 10 Centavos",
+   "slug": "mexican-10-centavos",
+   "variants": [
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.1,
+     "gross_g": 2.5,
+     "label": "80% silver (1905\u20131914)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": null,
+     "slug": "mx-10c-1905",
+     "year_end": 1914,
+     "year_start": 1905
+    },
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.1,
+     "gross_g": 1.8125,
+     "label": "80% silver (1919)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": "Smaller 1919 type",
+     "slug": "mx-10c-1919",
+     "year_end": 1919,
+     "year_start": 1919
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 0.1,
+     "gross_g": 1.66,
+     "label": "72% silver (1925\u20131935)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": null,
+     "slug": "mx-10c-1925",
+     "year_end": 1935,
+     "year_start": 1925
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 20 Centavos",
+   "slug": "mexican-20-centavos",
+   "variants": [
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.2,
+     "gross_g": 5.0,
+     "label": "80% silver (1905\u20131914)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": null,
+     "slug": "mx-20c-1905",
+     "year_end": 1914,
+     "year_start": 1905
+    },
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.2,
+     "gross_g": 3.625,
+     "label": "80% silver (1919)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": "Smaller 1919 type",
+     "slug": "mx-20c-1919",
+     "year_end": 1919,
+     "year_start": 1919
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 0.2,
+     "gross_g": 3.3333,
+     "label": "72% silver (1920\u20131943)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": null,
+     "slug": "mx-20c-1920",
+     "year_end": 1943,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 25 Centavos",
+   "slug": "mexican-25-centavos",
+   "variants": [
+    {
+     "composition": "30% silver, 70% copper",
+     "face": 0.25,
+     "gross_g": 3.333,
+     "label": "30% silver (1950\u20131953)",
+     "metals": {
+      "HG": 0.7,
+      "XAG": 0.3
+     },
+     "notes": "1964 and later 25 centavos have no silver",
+     "slug": "mx-25c-1950",
+     "year_end": 1953,
+     "year_start": 1950
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 50 Centavos",
+   "slug": "mexican-50-centavos",
+   "variants": [
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.5,
+     "gross_g": 12.5,
+     "label": "80% silver (1905\u20131918)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": null,
+     "slug": "mx-50c-1905",
+     "year_end": 1918,
+     "year_start": 1905
+    },
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 0.5,
+     "gross_g": 9.0625,
+     "label": "80% silver (1918\u20131919)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": "Smaller 1918\u20131919 type",
+     "slug": "mx-50c-1918",
+     "year_end": 1919,
+     "year_start": 1918
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 0.5,
+     "gross_g": 8.3333,
+     "label": "72% silver (1919\u20131945)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": null,
+     "slug": "mx-50c-1919",
+     "year_end": 1945,
+     "year_start": 1919
+    },
+    {
+     "composition": "42% silver, 58% copper",
+     "face": 0.5,
+     "gross_g": 7.973,
+     "label": "42% silver (1935)",
+     "metals": {
+      "HG": 0.58,
+      "XAG": 0.42
+     },
+     "notes": "1935 also has 72% coins; this lower-silver type is smaller and lighter",
+     "slug": "mx-50c-1935",
+     "year_end": 1935,
+     "year_start": 1935
+    },
+    {
+     "composition": "30% silver, 70% copper",
+     "face": 0.5,
+     "gross_g": 6.66,
+     "label": "30% silver (1950\u20131951)",
+     "metals": {
+      "HG": 0.7,
+      "XAG": 0.3
+     },
+     "notes": null,
+     "slug": "mx-50c-1950",
+     "year_end": 1951,
+     "year_start": 1950
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
    "name": "Mexican Silver Peso",
    "slug": "mexican-silver-peso",
    "variants": [
+    {
+     "composition": "90.3% silver",
+     "face": 1.0,
+     "gross_g": 27.07,
+     "label": "Caballito, 90.3% silver (1910\u20131914)",
+     "metals": {
+      "HG": 0.097,
+      "XAG": 0.903
+     },
+     "notes": "Horse-and-rider design",
+     "slug": "mx-peso-1910",
+     "year_end": 1914,
+     "year_start": 1910
+    },
+    {
+     "composition": "80% silver, 20% copper",
+     "face": 1.0,
+     "gross_g": 18.13,
+     "label": "80% silver (1918\u20131919)",
+     "metals": {
+      "HG": 0.2,
+      "XAG": 0.8
+     },
+     "notes": null,
+     "slug": "mx-peso-1918",
+     "year_end": 1919,
+     "year_start": 1918
+    },
     {
      "composition": "72% silver, 28% copper",
      "face": 1.0,
@@ -1020,6 +1252,122 @@
      "slug": "mexican-peso-720",
      "year_end": 1945,
      "year_start": 1920
+    },
+    {
+     "composition": "50% silver, 50% copper",
+     "face": 1.0,
+     "gross_g": 14.0,
+     "label": "50% silver (1947\u20131949)",
+     "metals": {
+      "HG": 0.5,
+      "XAG": 0.5
+     },
+     "notes": "Morelos",
+     "slug": "mx-peso-1947",
+     "year_end": 1949,
+     "year_start": 1947
+    },
+    {
+     "composition": "30% silver, 70% copper",
+     "face": 1.0,
+     "gross_g": 13.333,
+     "label": "30% silver (1950)",
+     "metals": {
+      "HG": 0.7,
+      "XAG": 0.3
+     },
+     "notes": "Morelos",
+     "slug": "mx-peso-1950",
+     "year_end": 1950,
+     "year_start": 1950
+    },
+    {
+     "composition": "10% silver, 90% copper",
+     "face": 1.0,
+     "gross_g": 16.0,
+     "label": "10% silver (1957\u20131967)",
+     "metals": {
+      "HG": 0.9,
+      "XAG": 0.1
+     },
+     "notes": "Morelos; includes the 1957 Constitution peso",
+     "slug": "mx-peso-1957",
+     "year_end": 1967,
+     "year_start": 1957
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 2 Pesos",
+   "slug": "mexican-2-pesos-silver",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 2.0,
+     "gross_g": 26.6667,
+     "label": "90% silver (1921)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": "Independence centennial",
+     "slug": "mx-2-pesos-1921",
+     "year_end": 1921,
+     "year_start": 1921
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 5 Pesos",
+   "slug": "mexican-5-pesos",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 5.0,
+     "gross_g": 30.0,
+     "label": "90% silver (1947\u20131948)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": "Cuauht\u00e9moc",
+     "slug": "mx-5-pesos-1947",
+     "year_end": 1948,
+     "year_start": 1947
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 5.0,
+     "gross_g": 27.78,
+     "label": "72% silver (1950\u20131954)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": "Includes the 1950 Railroad and 1953 Hidalgo commemoratives",
+     "slug": "mx-5-pesos-1950",
+     "year_end": 1954,
+     "year_start": 1950
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 5.0,
+     "gross_g": 18.05,
+     "label": "72% silver, small (1955\u20131959)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": "Includes the 1957 Ju\u00e1rez and 1959 Carranza commemoratives",
+     "slug": "mx-5-pesos-1955",
+     "year_end": 1959,
+     "year_start": 1955
     }
    ]
   },
@@ -1043,6 +1391,89 @@
      "slug": "mexican-10-pesos-900",
      "year_end": 1960,
      "year_start": 1955
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 25 Pesos",
+   "slug": "mexican-25-pesos",
+   "variants": [
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 25.0,
+     "gross_g": 22.5,
+     "label": "1968 Olympics (1968)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": "Mexico City Olympics",
+     "slug": "mx-25-pesos-1968",
+     "year_end": 1968,
+     "year_start": 1968
+    },
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 25.0,
+     "gross_g": 22.5,
+     "label": "Ju\u00e1rez (1972)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": null,
+     "slug": "mx-25-pesos-1972",
+     "year_end": 1972,
+     "year_start": 1972
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver 100 Pesos",
+   "slug": "mexican-100-pesos",
+   "variants": [
+    {
+     "composition": "72% silver, 28% copper",
+     "face": 100.0,
+     "gross_g": 27.78,
+     "label": "72% silver (1977\u20131979)",
+     "metals": {
+      "HG": 0.28,
+      "XAG": 0.72
+     },
+     "notes": "Marked \"PLATA PURA 20 GR\"",
+     "slug": "mx-100-pesos-1977",
+     "year_end": 1979,
+     "year_start": 1977
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Silver Onza",
+   "slug": "mexican-onza",
+   "variants": [
+    {
+     "composition": "92.5% silver",
+     "face": 0.0,
+     "gross_g": 33.625,
+     "label": "1 oz .925 (1949, 1978\u20131980)",
+     "metals": {
+      "HG": 0.075,
+      "XAG": 0.925
+     },
+     "notes": "Struck 1949 and 1978\u20131980",
+     "slug": "mx-onza",
+     "year_end": 1980,
+     "year_start": 1949
     }
    ]
   },
