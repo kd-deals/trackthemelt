@@ -18,8 +18,8 @@ export default function Header({ active }) {
     ['silver', '/#silver', 'Silver'],
     ['gold', '/#gold', 'Gold'],
     ['bullion', '/#bullion', 'Bullion'],
-    ['base', '/#base', 'Pennies & nickels'],
-    ['junk', '/junk-silver-calculator/', 'Junk silver calculator'],
+    ['base', '/#base', 'Pennies & Nickels'],
+    ['junk', '/junk-silver-calculator/', 'Junk Silver Calculator'],
   ];
   return (
     <header className="site-header">
@@ -29,7 +29,7 @@ export default function Header({ active }) {
           {nav.map(([k, href, label]) => (
             <a key={k} href={href} className={k === active ? 'on' : ''}>{label}</a>
           ))}
-          <a href={TTM_URL}>New Mint releases ↗</a>
+          <a href={TTM_URL}>New Mint Releases ↗</a>
         </nav>
       </div>
       <div className="spot-bar">

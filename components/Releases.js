@@ -10,7 +10,7 @@ export default function Releases() {
   return (
     <aside className="panel changes">
       <div className="changes-head">
-        <h2>Latest US Mint releases</h2>
+        <h2>Latest US Mint Releases</h2>
         <p className="muted small">Stock and sales from TrackTheMint</p>
       </div>
       {releases.map((r) => (

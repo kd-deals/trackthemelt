@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <Header />
       <div className="wrap intro">
-        <h1>US coin melt values</h1>
+        <h1>US Coin Melt Values</h1>
         <p className="lede">What the metal in US coins is worth at today's spot price. Values update live as spot moves.</p>
         <StatTiles tiles={tiles} initial={spot} />
       </div>
@@ -37,7 +37,7 @@ export default function Home() {
         </main>
         <div className="side-col">
           <a href="/junk-silver-calculator/" className="panel side-cta">
-            <span className="side-cta-title">Junk silver calculator</span>
+            <span className="side-cta-title">Junk Silver Calculator</span>
             <span className="muted small">Enter face value of 90%, 40% or war-nickel silver and see melt value and what a dealer might pay.</span>
           </a>
           <Releases />

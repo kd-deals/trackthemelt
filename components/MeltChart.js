@@ -72,7 +72,7 @@ export default function MeltChart({ variants, history, prices }) {
   return (
     <section className="panel chart-panel">
       <div className="chart-head">
-        <h2>Melt value history</h2>
+        <h2>Melt Value History</h2>
         <div className="chart-controls">
           {charted.length > 1 && (
             <select value={v.slug} onChange={(e) => setSel(e.target.value)} aria-label="Coin type">

@@ -11,7 +11,7 @@ export default function SeriesCalc({ name, variants, initial }) {
   return (
     <section className="panel calc">
       <div className="calc-head">
-        <h2>{name} melt value {s.live ? <span className="live-tag"><span className="live-dot" aria-hidden="true" />live</span> : null}</h2>
+        <h2>{name} Melt Value {s.live ? <span className="live-tag"><span className="live-dot" aria-hidden="true" />live</span> : null}</h2>
         <label className="qty">
           <span>Number of coins</span>
           <input type="number" inputMode="numeric" min="0" step="1" value={qty} onChange={(e) => setQty(e.target.value)} />

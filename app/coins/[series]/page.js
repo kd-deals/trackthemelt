@@ -120,7 +120,7 @@ export default async function SeriesPage({ params }) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Coin melt values', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 1, name: 'Coin Melt Values', item: `${SITE_URL}/` },
       { '@type': 'ListItem', position: 2, name: groupInfo.title, item: `${SITE_URL}/#${group}` },
       { '@type': 'ListItem', position: 3, name: s.name, item: `${SITE_URL}/coins/${s.slug}/` },
     ],
@@ -131,11 +131,11 @@ export default async function SeriesPage({ params }) {
       <Header active={group} />
       <div className="wrap product">
         <nav className="crumbs" aria-label="Breadcrumb">
-          <a href="/">Coin melt values</a><span aria-hidden="true">/</span>
+          <a href="/">Coin Melt Values</a><span aria-hidden="true">/</span>
           <a href={`/#${group}`}>{groupInfo.title}</a><span aria-hidden="true">/</span>
           <span>{s.name}</span>
         </nav>
-        <h1 className="page-title">{s.name} melt value</h1>
+        <h1 className="page-title">{s.name} Melt Value</h1>
         <p className="p-summary">{summary(s, prices, spot.t)}</p>
 
         <SeriesCalc name={s.name} variants={s.variants} initial={spot} />
@@ -180,14 +180,14 @@ export default async function SeriesPage({ params }) {
 
         {(group === 'bullion' || group === 'gold') && (
           <a href={TTM_URL} className="panel ttm-cta">
-            <span className="side-cta-title">Current US Mint gold and silver products</span>
+            <span className="side-cta-title">Current US Mint Gold and Silver Products</span>
             <span className="muted small">Stock, sales and Mint prices versus melt on TrackTheMint →</span>
           </a>
         )}
 
         {related.length > 0 && (
           <section className="more">
-            <div className="more-head"><h2>Other {groupInfo.title.toLowerCase()}</h2><a href={`/#${group}`}>All {groupInfo.title.toLowerCase()} →</a></div>
+            <div className="more-head"><h2>Other {groupInfo.title}</h2><a href={`/#${group}`}>All {groupInfo.title.toLowerCase()} →</a></div>
             <div className="more-grid">
               {related.map((r) => (
                 <a key={r.slug} href={`/coins/${r.slug}/`} className="more-card">

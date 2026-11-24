@@ -33,7 +33,7 @@ export default function JunkCalc({ kinds, initial }) {
   return (
     <section className="panel calc">
       <div className="calc-head">
-        <h2>Your junk silver {s.live ? <span className="live-tag"><span className="live-dot" aria-hidden="true" />live</span> : null}</h2>
+        <h2>Your Junk Silver {s.live ? <span className="live-tag"><span className="live-dot" aria-hidden="true" />live</span> : null}</h2>
         <span className="muted small">Silver {dollars(silver)}/oz</span>
       </div>
       <div className="junk-grid">
