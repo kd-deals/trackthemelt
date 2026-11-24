@@ -25,7 +25,7 @@ export default function CoinTable({ id, title, blurb, rows, initial }) {
             <span className="mt-years mono" data-label="Years">{years(r)}</span>
             <span className="mt-content" data-label="Contains">{contentLabel(r)}</span>
             <span className="mt-melt mono r">{melt == null ? '—' : money(melt)}</span>
-            <span className="mt-x mono r muted">{melt == null ? '—' : times(melt / r.face)}</span>
+            <span className="mt-x mono r muted">{melt == null || r.currency !== 'USD' || !r.face ? '—' : times(melt / r.face)}</span>
           </a>
         );
       })}

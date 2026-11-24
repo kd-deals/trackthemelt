@@ -4,7 +4,7 @@ import { useSpot } from '../lib/useSpot';
 import { meltValue, contentLabel } from '../lib/melt';
 import { money, dollars, times, years } from '../lib/format';
 
-export default function SeriesCalc({ name, variants, initial }) {
+export default function SeriesCalc({ name, variants, currency = 'USD', initial }) {
   const s = useSpot(initial);
   const [qty, setQty] = useState('1');
   const n = Math.max(0, Math.floor(Number(qty) || 0));
@@ -27,7 +27,7 @@ export default function SeriesCalc({ name, variants, initial }) {
                 <span className="mono muted small">{years(v)}</span>
               </div>
               <div className="vcard-melt mono">{melt == null ? '—' : money(melt)}</div>
-              <div className="muted small">{melt == null ? 'No tracked metal value' : <>per coin · {times(melt / v.face)} face value</>}</div>
+              <div className="muted small">{melt == null ? 'No tracked metal value' : <>per coin{currency === 'USD' && v.face ? <> · {times(melt / v.face)} face value</> : null}</>}</div>
               {melt != null && n !== 1 && (
                 <div className="vcard-total">
                   <span className="muted">{n.toLocaleString('en-US')} coins</span>

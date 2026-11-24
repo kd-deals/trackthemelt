@@ -38,9 +38,10 @@ function summary(s, prices, asOf) {
     return `${s.name} melt value${asOf ? ` at the ${shortDate(asOf)} spot price` : ''}: ${parts.join('; ')}.`;
   }
   const when = asOf ? ` at the ${shortDate(asOf)} spot price` : '';
+  const usd = s.currency === 'USD' && v.face > 0;
   let text = m
-    ? `A ${years(v)} ${s.name} (${v.type.toLowerCase()}) contains ${oz(v.content[m])} troy oz of pure ${METAL_NAME[m]}, worth ${money(melt)}${when}, or ${times(melt / v.face)} face value.`
-    : `A ${years(v)} ${s.name} contains ${v.composition.toLowerCase()}, worth ${money(melt)} in metal${when}, or ${times(melt / v.face)} face value.`;
+    ? `A ${years(v)} ${s.name} (${v.type.toLowerCase()}) contains ${oz(v.content[m])} troy oz of pure ${METAL_NAME[m]}, worth ${money(melt)}${when}${usd ? `, or ${times(melt / v.face)} face value` : ''}.`
+    : `A ${years(v)} ${s.name} contains ${v.composition.toLowerCase()}, worth ${money(melt)} in metal${when}${usd ? `, or ${times(melt / v.face)} face value` : ''}.`;
   const others = s.variants.filter((x) => x !== v);
   if (m && others.length) {
     const base = others.filter((x) => !mainMetal(x));
@@ -138,7 +139,7 @@ export default async function SeriesPage({ params }) {
         <h1 className="page-title">{s.name} Melt Value</h1>
         <p className="p-summary">{summary(s, prices, spot.t)}</p>
 
-        <SeriesCalc name={s.name} variants={s.variants} initial={spot} />
+        <SeriesCalc name={s.name} variants={s.variants} currency={s.currency} initial={spot} />
         <MeltChart variants={s.variants} history={historyFor(s.variants)} prices={prices} />
 
         <div className="p-bottom">

@@ -339,3 +339,20 @@ button { font: inherit; }
   .junk-out { grid-column: 1 / -1; flex-direction: row; justify-content: space-between; }
   .slider input { width: 100%; }
 }
+
+/* Junk calc: presets + deal analyzer */
+.presets { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 14px; }
+.chip { height: 32px; padding: 0 12px; border: 1px solid var(--control); border-radius: 999px; background: var(--surface); font: inherit; font-size: 13px; color: var(--ink); cursor: pointer; }
+.chip:hover { border-color: var(--copper); color: var(--copper-dark); }
+.chip-clear { color: var(--muted); }
+.deal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 14px; }
+.deal { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; background: var(--surface-dim); display: flex; flex-direction: column; gap: 10px; }
+.deal h3 { margin: 0; font-size: 15px; }
+.deal p { margin: 0; }
+.deal .junk-input input { width: 130px; }
+.deal-out { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin: 4px 0 0; }
+.deal-out dt { font-size: 12px; color: var(--muted); }
+.deal-out dd { margin: 2px 0 0; font-size: 18px; font-weight: 500; }
+.deal-empty { font-style: italic; }
+.step-hint { width: 80px; }
+.gap-top { margin-top: 24px; }

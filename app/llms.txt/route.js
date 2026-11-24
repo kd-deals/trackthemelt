@@ -16,7 +16,8 @@ export function GET() {
     'Melt value = coin weight × metal fineness × spot price, from official US Mint specifications. Gold, silver, platinum, palladium and copper use live spot prices; nickel and zinc are updated periodically. Melt value is the metal floor, not a dealer offer; collectible dates can be worth more.',
     '',
     '## Tools',
-    `- [Junk silver calculator](${SITE_URL}/junk-silver-calculator/): melt value of 90% silver, Morgan/Peace dollars, 40% silver and war nickels by face value, with a dealer-payout percentage`,
+    `- [Junk silver calculator](${SITE_URL}/junk-silver-calculator/): melt value of 90% silver, Morgan/Peace dollars, 40% silver and war nickels by face value or coin count, roll presets, and a deal analyzer (multiple of face, percent of melt)`,
+    `- [Scrap gold & silver calculator](${SITE_URL}/scrap-gold-silver-calculator/): scrap value of 10K–24K gold, sterling and coin silver, and platinum by weight (grams, pennyweight, troy oz), with per-gram prices`,
     `- [All coin melt values](${SITE_URL}/): every coin type on one page`,
     '',
   ];

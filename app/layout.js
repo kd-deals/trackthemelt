@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
             <nav className="footer-nav" aria-label="Footer">
               <a href="/about/">About</a>
               <a href="/junk-silver-calculator/">Junk Silver Calculator</a>
+              <a href="/scrap-gold-silver-calculator/">Scrap Gold & Silver</a>
               <a href={TTM_URL}>TrackTheMint</a>
               <span>{SITE_NAME}</span>
             </nav>
