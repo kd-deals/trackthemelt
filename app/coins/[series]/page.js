@@ -23,7 +23,7 @@ function lead(s, prices) {
 }
 
 function mainMetal(v) {
-  return PRECIOUS.filter((c) => (v.metals[c] || 0) >= 0.3).sort((a, b) => v.content[b] - v.content[a])[0] || null;
+  return PRECIOUS.filter((c) => (v.metals[c] || 0) >= 0.1).sort((a, b) => v.content[b] - v.content[a])[0] || null;
 }
 
 function summary(s, prices, asOf) {
