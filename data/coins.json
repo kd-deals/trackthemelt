@@ -960,6 +960,52 @@
    "category": "world",
    "country": "Canada",
    "currency": "CAD",
+   "name": "Canadian Gold $5",
+   "slug": "canadian-5-dollars-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 5.0,
+     "gross_g": 8.359,
+     "label": "90% gold (1912\u20131914)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "canadian-5-dollars-gold",
+     "year_end": 1914,
+     "year_start": 1912
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
+   "name": "Canadian Gold $10",
+   "slug": "canadian-10-dollars-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 10.0,
+     "gross_g": 16.718,
+     "label": "90% gold (1912\u20131914)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "canadian-10-dollars-gold",
+     "year_end": 1914,
+     "year_start": 1912
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Canada",
+   "currency": "CAD",
    "name": "Silver Maple Leaf",
    "slug": "silver-maple-leaf",
    "variants": [
@@ -1641,6 +1687,42 @@
    "category": "world",
    "country": "UK",
    "currency": "GBP",
+   "name": "British Silver Threepence",
+   "slug": "british-threepence",
+   "variants": [
+    {
+     "composition": "92.5% silver, 7.5% copper",
+     "face": 0.01,
+     "gross_g": 1.4138,
+     "label": "Sterling (1838\u20131919)",
+     "metals": {
+      "HG": 0.075,
+      "XAG": 0.925
+     },
+     "notes": "The small round silver threepence; the 12-sided brass threepence has no silver",
+     "slug": "british-threepence-925",
+     "year_end": 1919,
+     "year_start": 1838
+    },
+    {
+     "composition": "50% silver",
+     "face": 0.01,
+     "gross_g": 1.4138,
+     "label": "50% silver (1920\u20131944)",
+     "metals": {
+      "XAG": 0.5
+     },
+     "notes": "1920 threepences were struck in both alloys",
+     "slug": "british-threepence-500",
+     "year_end": 1944,
+     "year_start": 1920
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "UK",
+   "currency": "GBP",
    "name": "British Silver Sixpence",
    "slug": "british-sixpence",
    "variants": [
@@ -1922,6 +2004,29 @@
    "category": "world",
    "country": "Switzerland",
    "currency": "CHF",
+   "name": "Swiss Gold 10 Francs (Vreneli)",
+   "slug": "swiss-10-francs-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 10.0,
+     "gross_g": 3.2258,
+     "label": "90% gold (1911\u20131922)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "swiss-10-francs-gold",
+     "year_end": 1922,
+     "year_start": 1911
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Switzerland",
+   "currency": "CHF",
    "name": "Swiss Gold 20 Francs (Vreneli)",
    "slug": "swiss-20-francs-gold",
    "variants": [
@@ -1938,6 +2043,287 @@
      "slug": "swiss-20-francs-gold",
      "year_end": 1949,
      "year_start": 1897
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 50 Centimes",
+   "slug": "french-50-centimes",
+   "variants": [
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 0.5,
+     "gross_g": 2.5,
+     "label": "83.5% silver (1864\u20131920)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "Coins dated before 1864 are 90% silver at the same weight; 1920s and later bronze-aluminum coins have no silver",
+     "slug": "french-50-centimes-835",
+     "year_end": 1920,
+     "year_start": 1864
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 1 Franc",
+   "slug": "french-1-franc",
+   "variants": [
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 1.0,
+     "gross_g": 5.0,
+     "label": "83.5% silver (1864\u20131920)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "Coins dated before 1864 are 90% silver at the same weight; later bronze-aluminum and nickel francs have no silver",
+     "slug": "french-1-franc-835",
+     "year_end": 1920,
+     "year_start": 1864
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 2 Francs",
+   "slug": "french-2-francs",
+   "variants": [
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 2.0,
+     "gross_g": 10.0,
+     "label": "83.5% silver (1866\u20131920)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "Coins dated before 1866 are 90% silver at the same weight",
+     "slug": "french-2-francs-835",
+     "year_end": 1920,
+     "year_start": 1866
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 5 Francs",
+   "slug": "french-5-francs",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 5.0,
+     "gross_g": 25.0,
+     "label": "Large 90% silver (1795\u20131889)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": "The large \u00e9cu-size 5 francs (Hercules, Ceres, Napoleon III)",
+     "slug": "french-5-francs-900",
+     "year_end": 1889,
+     "year_start": 1795
+    },
+    {
+     "composition": "83.5% silver, 16.5% copper",
+     "face": 5.0,
+     "gross_g": 12.0,
+     "label": "Semeuse 83.5% silver (1960\u20131969)",
+     "metals": {
+      "HG": 0.165,
+      "XAG": 0.835
+     },
+     "notes": "1970 and later 5 francs are nickel-clad",
+     "slug": "french-5-francs-semeuse",
+     "year_end": 1969,
+     "year_start": 1960
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 10 Francs",
+   "slug": "french-10-francs",
+   "variants": [
+    {
+     "composition": "68% silver, 32% copper",
+     "face": 10.0,
+     "gross_g": 10.0,
+     "label": "Turin 68% silver (1929\u20131939)",
+     "metals": {
+      "HG": 0.32,
+      "XAG": 0.68
+     },
+     "notes": null,
+     "slug": "french-10-francs-turin",
+     "year_end": 1939,
+     "year_start": 1929
+    },
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 10.0,
+     "gross_g": 25.0,
+     "label": "Hercules 90% silver (1965\u20131973)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": "1974 and later 10 francs have no silver",
+     "slug": "french-10-francs-hercules",
+     "year_end": 1973,
+     "year_start": 1965
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 20 Francs",
+   "slug": "french-20-francs",
+   "variants": [
+    {
+     "composition": "68% silver, 32% copper",
+     "face": 20.0,
+     "gross_g": 20.0,
+     "label": "Turin 68% silver (1929\u20131939)",
+     "metals": {
+      "HG": 0.32,
+      "XAG": 0.68
+     },
+     "notes": null,
+     "slug": "french-20-francs-turin",
+     "year_end": 1939,
+     "year_start": 1929
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 50 Francs",
+   "slug": "french-50-francs",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 50.0,
+     "gross_g": 30.0,
+     "label": "Hercules 90% silver (1974\u20131980)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "french-50-francs-hercules",
+     "year_end": 1980,
+     "year_start": 1974
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Silver 100 Francs",
+   "slug": "french-100-francs",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 100.0,
+     "gross_g": 15.0,
+     "label": "Commemorative 90% silver (1982\u20132001)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": "Panth\u00e9on and other 100 francs commemoratives; the 1929\u20131936 gold 100 francs is a separate, rare coin",
+     "slug": "french-100-francs-900",
+     "year_end": 2001,
+     "year_start": 1982
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Gold 10 Francs",
+   "slug": "french-10-francs-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 10.0,
+     "gross_g": 3.2258,
+     "label": "90% gold (1850\u20131914)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "french-10-francs-gold",
+     "year_end": 1914,
+     "year_start": 1850
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Gold 20 Francs (Napoleon/Rooster)",
+   "slug": "french-20-francs-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 20.0,
+     "gross_g": 6.4516,
+     "label": "90% gold (1803\u20131914)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Napoleon, Genius (Angel) and Rooster designs all hold the same gold",
+     "slug": "french-20-francs-gold",
+     "year_end": 1914,
+     "year_start": 1803
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "France",
+   "currency": "FRF",
+   "name": "French Gold 100 Francs",
+   "slug": "french-100-francs-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 100.0,
+     "gross_g": 32.258,
+     "label": "90% gold (1855\u20131913)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "french-100-francs-gold",
+     "year_end": 1913,
+     "year_start": 1855
     }
    ]
   },
