@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { useSpot } from '../lib/useSpot';
-import { dollars } from '../lib/format';
+import { dollars, oz } from '../lib/format';
 import { SET_GROUPS, ALL_SETS } from '../lib/sets';
 
 const count = (v) => Math.max(0, Math.floor(Number(v) || 0));
@@ -42,7 +42,7 @@ export default function SetCalc({ initial }) {
                   <span className="step-hint muted xsmall">{dollars(melt)} each</span>
                 </span>
                 <span className="junk-out mono">
-                  <span>{(x.oz * (n || 1)).toFixed(4)} oz{n ? '' : ' each'}</span>
+                  <span>{oz(x.oz * (n || 1))} oz{n ? '' : ' each'}</span>
                   <span className="muted">{n && melt != null ? dollars(melt * n) : '—'}</span>
                 </span>
               </label>
