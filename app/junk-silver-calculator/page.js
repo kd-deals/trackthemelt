@@ -1,6 +1,7 @@
 import Header from '../../components/Header';
 import JunkCalc from '../../components/JunkCalc';
 import { getData } from '../../lib/data';
+import { SITE_URL, SITE_NAME } from '../../lib/site';
 
 export const metadata = {
   title: 'Junk Silver Calculator: 90%, 40% and War Nickels',
@@ -47,6 +48,12 @@ export default function JunkPage() {
           </p>
         </section>
       </div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Junk Silver Calculator',
+        url: `${SITE_URL}/junk-silver-calculator/`, applicationCategory: 'FinanceApplication', operatingSystem: 'Any',
+        description: 'Melt value of 90% silver, Morgan and Peace dollars, 40% silver and war nickels by face value, at live silver spot.',
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, publisher: { '@type': 'Organization', name: SITE_NAME, url: `${SITE_URL}/` },
+      }) }} />
     </>
   );
 }

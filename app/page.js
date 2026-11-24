@@ -3,6 +3,9 @@ import CoinTable from '../components/CoinTable';
 import StatTiles from '../components/StatTiles';
 import Releases from '../components/Releases';
 import { getData, getRows, GROUPS } from '../lib/data';
+import { SITE_URL, SITE_NAME, TTM_URL } from '../lib/site';
+
+export const metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
   const { spot } = getData();
@@ -18,6 +21,16 @@ export default function Home() {
     tile('morgan-dollar', 'Morgan / Peace dollar', '/coins/morgan-dollar/'),
     tile('roosevelt-dime-silver', '$1 face of 90% silver', '/junk-silver-calculator/', 10),
   ].filter(Boolean);
+  const ld = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: `${SITE_URL}/`, name: SITE_NAME,
+        description: 'Live melt value of US coins at current gold, silver and copper spot prices.', inLanguage: 'en-US' },
+      { '@type': 'Organization', '@id': `${SITE_URL}/#org`, name: SITE_NAME, url: `${SITE_URL}/`, logo: `${SITE_URL}/icon.svg`, sameAs: [TTM_URL] },
+      { '@type': 'ItemList', name: 'US coin melt values',
+        itemListElement: getData().series.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: `${x.name} melt value`, url: `${SITE_URL}/coins/${x.slug}/` })) },
+    ],
+  };
 
   return (
     <>
@@ -43,6 +56,7 @@ export default function Home() {
           <Releases />
         </div>
       </div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
     </>
   );
 }
