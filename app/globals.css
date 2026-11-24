@@ -388,3 +388,25 @@ button { font: inherit; }
 .calc-tabs { overflow-x: auto; }
 .calc-tabs a { white-space: nowrap; }
 .mt-head.no-face, .mt-row.no-face { grid-template-columns: minmax(0, 2.2fr) 110px minmax(0, 1.8fr) 110px; }
+
+.custom-fine { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 6px; }
+.custom-fine select, .custom-fine input { height: 36px; border: 1px solid var(--control); border-radius: 8px; background: var(--surface); font: inherit; font-size: 14px; color: var(--ink); padding: 0 8px; }
+.custom-fine input { width: 150px; font-family: var(--mono); }
+
+/* Totals stay pinned to the bottom of the screen while scrolling through a calculator */
+.calc .junk-total {
+  position: sticky; bottom: 10px; z-index: 5; background: var(--surface);
+  box-shadow: 0 8px 28px rgba(15, 27, 45, 0.16), 0 0 0 1px var(--line);
+}
+@media (max-width: 760px) {
+  .calc .junk-total { bottom: 6px; grid-template-columns: repeat(auto-fit, minmax(105px, 1fr)); }
+  .calc .junk-total > div { padding: 8px 10px; }
+  .calc .junk-total dt { font-size: 11px; }
+  .calc .junk-total dd { font-size: 15px; margin-top: 2px; }
+}
+@media (max-width: 760px) {
+  .junk-line { grid-template-columns: 1fr; gap: 8px; }
+  .junk-input { flex-wrap: wrap; }
+  .calc .junk-total { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .calc .junk-total > div:first-child:nth-last-child(5) { display: none; }   /* 5-tile totals: drop the count tile on phones */
+}

@@ -44,12 +44,22 @@ export function ScrapPriceTable({ initial }) {
   );
 }
 
+// Fineness typed any common way: .800 / 0.8, 800 (millesimal), or 80 (%).
+export function parseFine(v) {
+  const n = Number(String(v).replace(/[%\s]/g, ''));
+  if (!Number.isFinite(n) || n <= 0) return null;
+  const f = n <= 1 ? n : n <= 100 ? n / 100 : n <= 1000 ? n / 1000 : null;
+  return f && f <= 1 ? f : null;
+}
+
 export default function ScrapCalc({ initial }) {
   const s = useSpot(initial);
   const [unit, setUnit] = useState('g');
   const [w, setW] = useState(Object.fromEntries(PURITIES.map((p) => [p.key, ''])));
   const [pct, setPct] = useState(100);
+  const [custom, setCustom] = useState({ metal: 'XAG', fine: '', w: '' });
   const u = UNITS[unit];
+  const cFine = parseFine(custom.fine);
 
   const lines = PURITIES.map((p) => {
     const grams = Math.max(0, Number(w[p.key]) || 0) * u.grams;
@@ -57,6 +67,12 @@ export default function ScrapCalc({ initial }) {
     const spot = s.prices[p.metal];
     return { ...p, grams, pureOz, value: spot != null ? pureOz * spot : null };
   });
+  {
+    const grams = Math.max(0, Number(custom.w) || 0) * u.grams;
+    const pureOz = cFine ? (grams * cFine) / OZT : 0;
+    const spot = s.prices[custom.metal];
+    lines.push({ key: 'custom', metal: custom.metal, grams, pureOz, value: spot != null ? pureOz * spot : null, custom: true });
+  }
   const sum = (metal) => lines.filter((l) => !metal || l.metal === metal).reduce((n, l) => n + (l.value || 0), 0);
   const total = sum();
   const oz = (metal) => lines.filter((l) => l.metal === metal).reduce((n, l) => n + l.pureOz, 0);
@@ -72,7 +88,7 @@ export default function ScrapCalc({ initial }) {
         </div>
       </div>
       <div className="junk-grid">
-        {lines.map((l) => (
+        {lines.filter((l) => !l.custom).map((l) => (
           <label key={l.key} className="junk-line">
             <span className="junk-name">
               <span className="pname">{l.title}</span>
@@ -90,6 +106,31 @@ export default function ScrapCalc({ initial }) {
             </span>
           </label>
         ))}
+        <div className="junk-line custom-line">
+          <span className="junk-name">
+            <span className="pname">Other fineness</span>
+            <span className="custom-fine">
+              <select value={custom.metal} onChange={(e) => setCustom({ ...custom, metal: e.target.value })} aria-label="Metal">
+                <option value="XAG">Silver</option>
+                <option value="XAU">Gold</option>
+                <option value="XPT">Platinum</option>
+              </select>
+              <input type="text" inputMode="decimal" placeholder=".800, 835 or 84%" value={custom.fine}
+                aria-label="Fineness" onChange={(e) => setCustom({ ...custom, fine: e.target.value })} />
+              <span className="code">{custom.fine === '' ? 'e.g. 800 German, 830 Scandinavian, 875 Russian' : cFine ? `= ${(cFine * 100).toFixed(1)}% pure` : 'Enter .800, 800 or 80%'}</span>
+            </span>
+          </span>
+          <label className="junk-input">
+            <span className="muted">Weight</span>
+            <input type="number" inputMode="decimal" min="0" step="0.01" placeholder="0" value={custom.w}
+              onChange={(e) => setCustom({ ...custom, w: e.target.value })} />
+            <span className="step-hint muted xsmall">{u.short}</span>
+          </label>
+          <span className="junk-out mono">
+            <span>{lines.at(-1).pureOz.toFixed(3)} oz pure</span>
+            <span className="muted">{lines.at(-1).value == null ? '—' : dollars(lines.at(-1).value)}</span>
+          </span>
+        </div>
       </div>
       <div className="junk-opts">
         <label className="slider">
