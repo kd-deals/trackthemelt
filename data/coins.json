@@ -1526,6 +1526,98 @@
    "category": "world",
    "country": "Mexico",
    "currency": "MXN",
+   "name": "Mexican Gold 2\u00bd Pesos",
+   "slug": "mexican-2-5-pesos-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 2.5,
+     "gross_g": 2.0833,
+     "label": "90% gold (1918\u20131948)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Most are restrikes dated 1945, with the same gold content",
+     "slug": "mexican-2-5-pesos-gold",
+     "year_end": 1948,
+     "year_start": 1918
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Gold 5 Pesos",
+   "slug": "mexican-5-pesos-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 5.0,
+     "gross_g": 4.1667,
+     "label": "90% gold (1905\u20131955)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Most are restrikes dated 1955, with the same gold content",
+     "slug": "mexican-5-pesos-gold",
+     "year_end": 1955,
+     "year_start": 1905
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Gold 10 Pesos",
+   "slug": "mexican-10-pesos-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 10.0,
+     "gross_g": 8.3333,
+     "label": "90% gold (1905\u20131959)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Most are restrikes dated 1959, with the same gold content",
+     "slug": "mexican-10-pesos-gold",
+     "year_end": 1959,
+     "year_start": 1905
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
+   "name": "Mexican Gold 20 Pesos (Azteca)",
+   "slug": "mexican-20-pesos-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 20.0,
+     "gross_g": 16.6667,
+     "label": "90% gold (1917\u20131959)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Most are restrikes dated 1959, with the same gold content",
+     "slug": "mexican-20-pesos-gold",
+     "year_end": 1959,
+     "year_start": 1917
+    }
+   ]
+  },
+  {
+   "category": "world",
+   "country": "Mexico",
+   "currency": "MXN",
    "name": "Mexican Gold 50 Pesos (Centenario)",
    "slug": "mexican-50-pesos",
    "variants": [
