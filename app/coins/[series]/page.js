@@ -33,7 +33,7 @@ function summary(s, prices, asOf) {
   if (!m && s.variants.length > 1) {
     const parts = s.variants.map((x) => {
       const mv = meltValue(x.content, prices);
-      return `${x.type.toLowerCase()} (${years(x)}) ${mv == null ? 'no tracked metal value' : money(mv)}`;
+      return `${x.type} (${years(x)}) ${mv == null ? 'no tracked metal value' : money(mv)}`;
     });
     return `${s.name} melt value${asOf ? ` at the ${shortDate(asOf)} spot price` : ''}: ${parts.join('; ')}.`;
   }

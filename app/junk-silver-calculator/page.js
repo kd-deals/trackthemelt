@@ -16,11 +16,11 @@ export default function JunkPage() {
     return v ? v.content.XAG / v.face : 0;
   };
   const kinds = [
-    { key: '90', title: '90% silver', sub: 'Pre-1965 dimes, quarters, halves', ozPerDollar: perDollar('roosevelt-dime-silver') },
-    { key: 'dollars', title: 'Morgan & Peace dollars', sub: '1878–1935, 90% silver', ozPerDollar: perDollar('morgan-dollar') },
-    { key: '40h', title: '40% Kennedy halves', sub: '1965–1970', ozPerDollar: perDollar('kennedy-half-40') },
-    { key: '40i', title: '40% Eisenhower dollars', sub: '1971–1976 S-mint', ozPerDollar: perDollar('eisenhower-dollar-40') },
-    { key: 'war', title: 'War nickels', sub: '1942–1945, 35% silver', ozPerDollar: perDollar('jefferson-nickel-war') },
+    { key: '90', step: 0.05, title: '90% silver', sub: 'Pre-1965 dimes, quarters, halves', ozPerDollar: perDollar('roosevelt-dime-silver') },
+    { key: 'dollars', step: 1, title: 'Morgan & Peace dollars', sub: '1878–1935, 90% silver', ozPerDollar: perDollar('morgan-dollar') },
+    { key: '40h', step: 0.5, title: '40% Kennedy halves', sub: '1965–1970', ozPerDollar: perDollar('kennedy-half-40') },
+    { key: '40i', step: 1, title: '40% Eisenhower dollars', sub: '1971–1976 S-mint', ozPerDollar: perDollar('eisenhower-dollar-40') },
+    { key: 'war', step: 0.05, title: 'War nickels', sub: '1942–1945, 35% silver', ozPerDollar: perDollar('jefferson-nickel-war') },
   ];
   return (
     <>

@@ -5,6 +5,13 @@ import { dollars, times } from '../lib/format';
 
 const WORN_90 = 0.715;   // oz per $1 face dealers use for circulated 90% (vs 0.7234 when new)
 
+// Round face value to the smallest coin in that group (e.g. $0.05 for war nickels), in whole cents.
+function snap(value, step) {
+  const cents = Math.max(0, Math.round((Number(value) || 0) * 100));
+  const s = Math.round(step * 100);
+  return (Math.max(cents ? 1 : 0, Math.round(cents / s)) * s) / 100;   // any amount counts as at least one coin
+}
+
 export default function JunkCalc({ kinds, initial }) {
   const s = useSpot(initial);
   const [face, setFace] = useState(Object.fromEntries(kinds.map((k) => [k.key, ''])));
@@ -13,7 +20,7 @@ export default function JunkCalc({ kinds, initial }) {
   const silver = s.prices.XAG;
 
   const lines = kinds.map((k) => {
-    const f = Math.max(0, Number(face[k.key]) || 0);
+    const f = snap(face[k.key], k.step);
     const perDollar = k.key === '90' && worn ? WORN_90 : k.ozPerDollar;
     const oz = f * perDollar;
     return { ...k, f, perDollar, oz, melt: silver != null ? oz * silver : null };
@@ -38,8 +45,11 @@ export default function JunkCalc({ kinds, initial }) {
             </span>
             <span className="junk-input">
               <span className="muted">Face $</span>
-              <input type="number" inputMode="decimal" min="0" step="0.05" placeholder="0.00" value={face[l.key]}
-                onChange={(e) => setFace({ ...face, [l.key]: e.target.value })} />
+              <input type="number" inputMode="decimal" min="0" step={l.step} placeholder="0.00" value={face[l.key]}
+                aria-describedby={`step-${l.key}`}
+                onChange={(e) => setFace({ ...face, [l.key]: e.target.value })}
+                onBlur={() => face[l.key] !== '' && setFace({ ...face, [l.key]: l.f ? l.f.toFixed(2) : '' })} />
+              <span id={`step-${l.key}`} className="step-hint muted xsmall">{dollars(l.step)} steps</span>
             </span>
             <span className="junk-out mono">
               <span>{l.oz.toFixed(3)} oz</span>
