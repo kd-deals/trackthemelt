@@ -310,6 +310,7 @@ button { font: inherit; }
 .check input { width: 18px; height: 18px; }
 .slider { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .slider input { width: 200px; accent-color: var(--copper); }
+.slider .pct { display: inline-block; width: 4ch; text-align: right; }
 .junk-total {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin: 18px 0 0;
   border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
