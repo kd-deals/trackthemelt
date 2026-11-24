@@ -17,10 +17,10 @@
    "unit": "lb"
   },
   "NI": {
-   "as_of": "2026-11-23T23:20:07Z",
+   "as_of": "2026-11-23T00:00:00Z",
    "grams_per_unit": 453.59237,
    "name": "Nickel",
-   "price": 7.0,
+   "price": 6.901408,
    "source": "manual",
    "unit": "lb"
   },
@@ -57,10 +57,10 @@
    "unit": "ozt"
   },
   "ZN": {
-   "as_of": "2026-11-23T23:20:07Z",
+   "as_of": "2026-11-23T00:00:00Z",
    "grams_per_unit": 453.59237,
    "name": "Zinc",
-   "price": 1.4,
+   "price": 1.646767,
    "source": "manual",
    "unit": "lb"
   }
