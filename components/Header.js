@@ -1,5 +1,5 @@
 import { SITE_NAME, TTM_URL } from '../lib/site';
-import { getData } from '../lib/data';
+import { getData, lastCloses } from '../lib/data';
 import SpotStrip from './SpotStrip';
 
 export function Logo({ size = 30 }) {
@@ -35,7 +35,7 @@ export default function Header({ active }) {
         </nav>
       </div>
       <div className="spot-bar">
-        <div className="wrap"><SpotStrip initial={getData().spot} /></div>
+        <div className="wrap"><SpotStrip initial={getData().spot} closes={lastCloses()} /></div>
       </div>
     </header>
   );

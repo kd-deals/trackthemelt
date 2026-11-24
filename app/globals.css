@@ -428,3 +428,10 @@ button { font: inherit; }
 .form-msg { font-size: 14px; margin-left: 10px; }
 .form-msg.ok { margin: 0; color: var(--green); font-weight: 600; }
 .form-msg.err { color: #B42318; }
+
+/* Spot strip: change vs prior close */
+.spot-chg { margin-left: 6px; font-family: var(--mono); font-size: 12px; font-weight: 500; white-space: nowrap; }
+.spot-chg span[aria-hidden] { margin-right: 3px; font-size: 10px; }
+.spot-strip.bar .spot-chg.up { color: #4ADE80; }
+.spot-strip.bar .spot-chg.down { color: #F87171; }
+.spot-strip.bar .spot-chg.flat { color: #9AA4B2; }
