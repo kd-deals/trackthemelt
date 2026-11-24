@@ -55,7 +55,7 @@ export default function JunkCalc({ kinds, initial }) {
           <span>Circulated 90%: use {WORN_90} oz per $1 face (dealer standard for worn coins)</span>
         </label>
         <label className="slider">
-          <span>Dealer pays <strong className="mono">{pct}%</strong> of melt</span>
+          <span>Dealer pays <strong className="mono pct">{pct}%</strong> of melt</span>
           <input type="range" min="70" max="100" step="1" value={pct} onChange={(e) => setPct(Number(e.target.value))} />
         </label>
       </div>
@@ -65,7 +65,7 @@ export default function JunkCalc({ kinds, initial }) {
         <div><dt>Pure silver</dt><dd className="mono">{totalOz.toFixed(3)} oz</dd></div>
         <div><dt>Melt value</dt><dd className="mono">{dollars(totalMelt)}</dd></div>
         <div><dt>Multiple of face</dt><dd className="mono">{totalFace && totalMelt != null ? times(totalMelt / totalFace) : '—'}</dd></div>
-        {pct < 100 && <div><dt>At {pct}% of melt</dt><dd className="mono">{dollars(offer)}</dd></div>}
+        <div><dt>Dealer offer ({pct}%)</dt><dd className="mono">{dollars(offer)}</dd></div>
       </div>
     </section>
   );
