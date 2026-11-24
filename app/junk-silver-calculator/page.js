@@ -4,7 +4,7 @@ import { getData } from '../../lib/data';
 
 export const metadata = {
   title: 'Junk Silver Calculator: 90%, 40% and War Nickels',
-  description: 'Melt value of junk silver by face value: pre-1965 90% silver dimes, quarters and halves, 40% Kennedy halves and Eisenhower dollars, and wartime nickels, at live silver spot.',
+  description: 'Melt value of junk silver by face value: pre-1965 90% silver dimes, quarters and halves, Morgan and Peace dollars, 40% Kennedy halves and Eisenhower dollars, and wartime nickels, at live silver spot.',
   alternates: { canonical: '/junk-silver-calculator/' },
 };
 
@@ -17,6 +17,7 @@ export default function JunkPage() {
   };
   const kinds = [
     { key: '90', title: '90% silver', sub: 'Pre-1965 dimes, quarters, halves', ozPerDollar: perDollar('roosevelt-dime-silver') },
+    { key: 'dollars', title: 'Morgan & Peace dollars', sub: '1878–1935, 90% silver', ozPerDollar: perDollar('morgan-dollar') },
     { key: '40h', title: '40% Kennedy halves', sub: '1965–1970', ozPerDollar: perDollar('kennedy-half-40') },
     { key: '40i', title: '40% Eisenhower dollars', sub: '1971–1976 S-mint', ozPerDollar: perDollar('eisenhower-dollar-40') },
     { key: 'war', title: 'War nickels', sub: '1942–1945, 35% silver', ozPerDollar: perDollar('jefferson-nickel-war') },
@@ -28,8 +29,9 @@ export default function JunkPage() {
         <h1 className="page-title">Junk silver calculator</h1>
         <p className="p-summary">
           Enter the face value of each kind of coin. Every $1 face of 90% silver holds {kinds[0].ozPerDollar.toFixed(4)} oz of
-          pure silver when new; worn coins are usually traded at 0.715 oz. 40% halves hold {kinds[1].ozPerDollar.toFixed(4)} oz
-          per $1 face and war nickels {kinds[3].ozPerDollar.toFixed(4)} oz.
+          pure silver when new; worn coins are usually traded at 0.715 oz. Morgan and Peace dollars hold more,
+          {' '}{kinds[1].ozPerDollar.toFixed(4)} oz each, so they're counted separately. 40% halves hold
+          {' '}{kinds[2].ozPerDollar.toFixed(4)} oz per $1 face and war nickels {kinds[4].ozPerDollar.toFixed(4)} oz.
         </p>
         <JunkCalc kinds={kinds} initial={spot} />
         <section className="panel p-specs prose">
