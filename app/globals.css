@@ -410,3 +410,21 @@ button { font: inherit; }
   .calc .junk-total { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .calc .junk-total > div:first-child:nth-last-child(5) { display: none; }   /* 5-tile totals: drop the count tile on phones */
 }
+
+/* About: contact form */
+.prose + .prose { margin-top: 16px; }
+.contact-form { display: grid; gap: 14px; max-width: 560px; }
+.contact-form label { display: grid; gap: 6px; font-size: 14px; font-weight: 600; }
+.contact-form label .muted { font-weight: 400; }
+.contact-form input, .contact-form select, .contact-form textarea {
+  font: inherit; font-size: 15px; font-weight: 400; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--control); border-radius: 8px; padding: 8px 10px;
+}
+.contact-form input, .contact-form select { height: 40px; }
+.contact-form textarea { resize: vertical; }
+.contact-form .hp { display: none; }
+.btn.primary { background: var(--navy); border-color: var(--navy); color: #fff; }
+.btn:disabled { opacity: .6; cursor: default; }
+.form-msg { font-size: 14px; margin-left: 10px; }
+.form-msg.ok { margin: 0; color: var(--green); font-weight: 600; }
+.form-msg.err { color: #B42318; }

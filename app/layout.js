@@ -26,7 +26,8 @@ export default function RootLayout({ children }) {
           <div className="wrap footer-inner">
             <span>Melt values use live spot prices and published coin specifications. They are not dealer offers.</span>
             <nav className="footer-nav" aria-label="Footer">
-              <a href="/about/">About</a>
+              <a href="/about/">About & FAQ</a>
+              <a href="/about/#contact">Contact</a>
               <a href="/junk-silver-calculator/">Junk Silver Calculator</a>
               <a href="/scrap-gold-silver-calculator/">Scrap Gold & Silver</a>
               <a href={TTM_URL}>TrackTheMint</a>

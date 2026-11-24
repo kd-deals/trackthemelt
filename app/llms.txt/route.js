@@ -13,7 +13,7 @@ export function GET() {
     '',
     '> Live melt value of US coins: what the gold, silver, copper and nickel in a coin is worth at current spot prices. Covers pre-1965 90% silver, 40% silver, wartime nickels, Lincoln cents, nickels, clad coins, pre-1933 gold and American Eagle/Buffalo bullion.',
     '',
-    'Melt value = coin weight × metal fineness × spot price, from official US Mint specifications. Gold, silver, platinum, palladium and copper use live spot prices; nickel and zinc are updated periodically. Melt value is the metal floor, not a dealer offer; collectible dates can be worth more.',
+    'Melt value = coin weight × metal fineness × spot price, from official US Mint specifications. Gold, silver, platinum, palladium and copper use live spot prices; nickel and zinc are daily London Metal Exchange cash settlement prices. Melt value is the metal floor, not a dealer offer; collectible dates can be worth more.',
     '',
     '## Tools',
     `- [Junk silver calculator](${SITE_URL}/junk-silver-calculator/): melt value of 90% silver, Morgan/Peace dollars, 40% silver and war nickels by face value or coin count, roll presets, and a deal analyzer (multiple of face, percent of melt)`,
