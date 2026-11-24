@@ -1,0 +1,48 @@
+import Header from '../components/Header';
+import CoinTable from '../components/CoinTable';
+import StatTiles from '../components/StatTiles';
+import Releases from '../components/Releases';
+import { getData, getRows, GROUPS } from '../lib/data';
+
+export default function Home() {
+  const { spot } = getData();
+  const rows = getRows();
+  const by = (slug) => rows.find((r) => r.slug === slug);
+  const tile = (slug, label, href, mult = 1) => {
+    const r = by(slug);
+    return r && { label, href, content: r.content, face: r.face * mult, mult };
+  };
+  const tiles = [
+    tile('roosevelt-dime-silver', 'Silver dime (pre-1965)', '/coins/roosevelt-dime/'),
+    tile('washington-quarter-silver', 'Silver quarter (pre-1965)', '/coins/washington-quarter/'),
+    tile('morgan-dollar', 'Morgan / Peace dollar', '/coins/morgan-dollar/'),
+    tile('roosevelt-dime-silver', '$1 face of 90% silver', '/junk-silver-calculator/', 10),
+  ].filter(Boolean);
+
+  return (
+    <>
+      <Header />
+      <div className="wrap intro">
+        <h1>US coin melt values</h1>
+        <p className="lede">What the metal in US coins is worth at today's spot price. Values update live as spot moves.</p>
+        <StatTiles tiles={tiles} initial={spot} />
+      </div>
+
+      <div className="wrap layout">
+        <main className="main-col">
+          {GROUPS.map((g) => (
+            <CoinTable key={g.key} id={g.key} title={g.title} blurb={g.blurb}
+              rows={rows.filter((r) => r.group === g.key)} initial={spot} />
+          ))}
+        </main>
+        <div className="side-col">
+          <a href="/junk-silver-calculator/" className="panel side-cta">
+            <span className="side-cta-title">Junk silver calculator</span>
+            <span className="muted small">Enter face value of 90%, 40% or war-nickel silver and see melt value and what a dealer might pay.</span>
+          </a>
+          <Releases />
+        </div>
+      </div>
+    </>
+  );
+}
