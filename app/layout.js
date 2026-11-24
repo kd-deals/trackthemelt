@@ -35,9 +35,9 @@ export default function RootLayout({ children }) {
         </footer>
         {GA_ID && (
           <>
-            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+            <Script src={`https://www.googletagmanager.com/${GA_ID.startsWith('GTM-') ? 'gtm.js' : 'gtag/js'}?id=${GA_ID}`} strategy="afterInteractive" />
             <Script id="ga" strategy="afterInteractive">
-              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());${GA_ID.startsWith('GTM-') ? '' : `gtag('config','${GA_ID}');`}`}
             </Script>
           </>
         )}
