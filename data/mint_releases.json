@@ -1,0 +1,58 @@
+{
+ "releases": [
+  {
+   "image": "https://trackthemint.com/img/26sqbz-8f545271.webp",
+   "name": "Semiquincentennial President Donald J. Trump 2026 $1 Coin (1,000-Coin Bag)",
+   "price_cents": 135000,
+   "release_date": "2026-11-19T17:00:00Z",
+   "sku": "26SQBZ",
+   "status": "Backorder",
+   "url": "https://trackthemint.com/product/26sqbz-semiquincentennial-president-donald-j-trump-2026-1-coin-1-000-coin-bag/"
+  },
+  {
+   "image": "https://trackthemint.com/img/26sqg-81bfd6ea.webp",
+   "name": "Semiquincentennial President Donald J. Trump 24K Gold Proof Coin",
+   "price_cents": 489000,
+   "release_date": "2026-11-19T17:00:00Z",
+   "sku": "26SQG",
+   "status": "Available",
+   "url": "https://trackthemint.com/product/26sqg-semiquincentennial-president-donald-j-trump-24k-gold-proof-coin/"
+  },
+  {
+   "image": "https://trackthemint.com/img/s831-58879668.webp",
+   "name": "Herbert Hoover Presidential Silver Medal",
+   "price_cents": 16400,
+   "release_date": "2026-11-18T17:00:00Z",
+   "sku": "S831",
+   "status": "Available",
+   "url": "https://trackthemint.com/product/s831-herbert-hoover-presidential-silver-medal/"
+  },
+  {
+   "image": "https://trackthemint.com/img/b4000-0bd7b8cd.webp",
+   "name": "$1 \u2013 50 Note Sheet (Atlanta) Series 2021",
+   "price_cents": 6250,
+   "release_date": "2026-11-17T17:00:00Z",
+   "sku": "B4000",
+   "status": "Sold out",
+   "url": "https://trackthemint.com/product/b4000-1-50-note-sheet-atlanta-series-2021/"
+  },
+  {
+   "image": "https://trackthemint.com/img/b4001-307706af.webp",
+   "name": "$1 \u2013 25 Note Sheet (Atlanta) Series 2021",
+   "price_cents": 3125,
+   "release_date": "2026-11-17T17:00:00Z",
+   "sku": "B4001",
+   "status": "Sold out",
+   "url": "https://trackthemint.com/product/b4001-1-25-note-sheet-atlanta-series-2021/"
+  },
+  {
+   "image": "https://trackthemint.com/img/b4002-16c6a2d9.webp",
+   "name": "$1 \u2013 20 Note Sheet (Atlanta) Series 2021",
+   "price_cents": 2500,
+   "release_date": "2026-11-17T17:00:00Z",
+   "sku": "B4002",
+   "status": "Sold out",
+   "url": "https://trackthemint.com/product/b4002-1-20-note-sheet-atlanta-series-2021/"
+  }
+ ]
+}

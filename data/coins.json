@@ -1,0 +1,994 @@
+{
+ "series": [
+  {
+   "category": "cent",
+   "name": "Flying Eagle Cent",
+   "slug": "flying-eagle-cent",
+   "variants": [
+    {
+     "composition": "88% copper, 12% nickel",
+     "face": 0.01,
+     "gross_g": 4.67,
+     "label": "Copper-nickel (1856\u20131858)",
+     "metals": {
+      "HG": 0.88,
+      "NI": 0.12
+     },
+     "notes": null,
+     "slug": "flying-eagle-cent",
+     "year_end": 1858,
+     "year_start": 1856
+    }
+   ]
+  },
+  {
+   "category": "cent",
+   "name": "Indian Head Cent",
+   "slug": "indian-head-cent",
+   "variants": [
+    {
+     "composition": "88% copper, 12% nickel",
+     "face": 0.01,
+     "gross_g": 4.67,
+     "label": "Copper-nickel (1859\u20131864)",
+     "metals": {
+      "HG": 0.88,
+      "NI": 0.12
+     },
+     "notes": null,
+     "slug": "indian-head-cent-cn",
+     "year_end": 1864,
+     "year_start": 1859
+    },
+    {
+     "composition": "95% copper, 5% tin and zinc",
+     "face": 0.01,
+     "gross_g": 3.11,
+     "label": "Bronze (1864\u20131909)",
+     "metals": {
+      "HG": 0.95
+     },
+     "notes": "Tin/zinc remainder not valued",
+     "slug": "indian-head-cent-bronze",
+     "year_end": 1909,
+     "year_start": 1864
+    }
+   ]
+  },
+  {
+   "category": "cent",
+   "name": "Lincoln Cent",
+   "slug": "lincoln-cent",
+   "variants": [
+    {
+     "composition": "95% copper, 5% tin and zinc",
+     "face": 0.01,
+     "gross_g": 3.11,
+     "label": "Bronze (1909\u20131942)",
+     "metals": {
+      "HG": 0.95
+     },
+     "notes": "Tin/zinc remainder not valued",
+     "slug": "lincoln-cent-bronze-1909-1942",
+     "year_end": 1942,
+     "year_start": 1909
+    },
+    {
+     "composition": "Zinc-coated steel",
+     "face": 0.01,
+     "gross_g": 2.7,
+     "label": "Steel (1943)",
+     "metals": {},
+     "notes": "No tracked metal value",
+     "slug": "lincoln-cent-steel-1943",
+     "year_end": 1943,
+     "year_start": 1943
+    },
+    {
+     "composition": "95% copper, 5% zinc",
+     "face": 0.01,
+     "gross_g": 3.11,
+     "label": "Shell-case brass (1944\u20131946)",
+     "metals": {
+      "HG": 0.95,
+      "ZN": 0.05
+     },
+     "notes": null,
+     "slug": "lincoln-cent-brass-1944-1946",
+     "year_end": 1946,
+     "year_start": 1944
+    },
+    {
+     "composition": "95% copper, 5% tin and zinc",
+     "face": 0.01,
+     "gross_g": 3.11,
+     "label": "Bronze (1947\u20131962)",
+     "metals": {
+      "HG": 0.95
+     },
+     "notes": "Tin/zinc remainder not valued",
+     "slug": "lincoln-cent-bronze-1947-1962",
+     "year_end": 1962,
+     "year_start": 1947
+    },
+    {
+     "composition": "95% copper, 5% zinc",
+     "face": 0.01,
+     "gross_g": 3.11,
+     "label": "Brass (1962\u20131982)",
+     "metals": {
+      "HG": 0.95,
+      "ZN": 0.05
+     },
+     "notes": "1982 struck in both compositions: 3.11 g = copper, 2.50 g = zinc",
+     "slug": "lincoln-cent-brass-1962-1982",
+     "year_end": 1982,
+     "year_start": 1962
+    },
+    {
+     "composition": "97.5% zinc, 2.5% copper",
+     "face": 0.01,
+     "gross_g": 2.5,
+     "label": "Copper-plated zinc (1982\u2013present)",
+     "metals": {
+      "HG": 0.025,
+      "ZN": 0.975
+     },
+     "notes": "1982 struck in both compositions: 3.11 g = copper, 2.50 g = zinc",
+     "slug": "lincoln-cent-zinc-1982-present",
+     "year_end": null,
+     "year_start": 1982
+    }
+   ]
+  },
+  {
+   "category": "two_cent",
+   "name": "Two-Cent Piece",
+   "slug": "two-cent-piece",
+   "variants": [
+    {
+     "composition": "95% copper, 5% tin and zinc",
+     "face": 0.02,
+     "gross_g": 6.22,
+     "label": "Bronze (1864\u20131873)",
+     "metals": {
+      "HG": 0.95
+     },
+     "notes": "Tin/zinc remainder not valued",
+     "slug": "two-cent-piece",
+     "year_end": 1873,
+     "year_start": 1864
+    }
+   ]
+  },
+  {
+   "category": "three_cent",
+   "name": "Three-Cent Silver",
+   "slug": "three-cent-silver",
+   "variants": [
+    {
+     "composition": "75% silver, 25% copper",
+     "face": 0.03,
+     "gross_g": 0.8,
+     "label": "75% silver (1851\u20131853)",
+     "metals": {
+      "HG": 0.25,
+      "XAG": 0.75
+     },
+     "notes": null,
+     "slug": "three-cent-silver-1851-1853",
+     "year_end": 1853,
+     "year_start": 1851
+    },
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.03,
+     "gross_g": 0.75,
+     "label": "90% silver (1854\u20131873)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "three-cent-silver-1854-1873",
+     "year_end": 1873,
+     "year_start": 1854
+    }
+   ]
+  },
+  {
+   "category": "three_cent",
+   "name": "Three-Cent Nickel",
+   "slug": "three-cent-nickel",
+   "variants": [
+    {
+     "composition": "75% copper, 25% nickel",
+     "face": 0.03,
+     "gross_g": 1.94,
+     "label": "Copper-nickel (1865\u20131889)",
+     "metals": {
+      "HG": 0.75,
+      "NI": 0.25
+     },
+     "notes": null,
+     "slug": "three-cent-nickel",
+     "year_end": 1889,
+     "year_start": 1865
+    }
+   ]
+  },
+  {
+   "category": "nickel",
+   "name": "Shield Nickel",
+   "slug": "shield-nickel",
+   "variants": [
+    {
+     "composition": "75% copper, 25% nickel",
+     "face": 0.05,
+     "gross_g": 5.0,
+     "label": "Copper-nickel (1866\u20131883)",
+     "metals": {
+      "HG": 0.75,
+      "NI": 0.25
+     },
+     "notes": null,
+     "slug": "shield-nickel",
+     "year_end": 1883,
+     "year_start": 1866
+    }
+   ]
+  },
+  {
+   "category": "nickel",
+   "name": "Liberty Head Nickel",
+   "slug": "liberty-nickel",
+   "variants": [
+    {
+     "composition": "75% copper, 25% nickel",
+     "face": 0.05,
+     "gross_g": 5.0,
+     "label": "Copper-nickel (1883\u20131912)",
+     "metals": {
+      "HG": 0.75,
+      "NI": 0.25
+     },
+     "notes": null,
+     "slug": "liberty-nickel",
+     "year_end": 1912,
+     "year_start": 1883
+    }
+   ]
+  },
+  {
+   "category": "nickel",
+   "name": "Buffalo Nickel",
+   "slug": "buffalo-nickel",
+   "variants": [
+    {
+     "composition": "75% copper, 25% nickel",
+     "face": 0.05,
+     "gross_g": 5.0,
+     "label": "Copper-nickel (1913\u20131938)",
+     "metals": {
+      "HG": 0.75,
+      "NI": 0.25
+     },
+     "notes": null,
+     "slug": "buffalo-nickel",
+     "year_end": 1938,
+     "year_start": 1913
+    }
+   ]
+  },
+  {
+   "category": "nickel",
+   "name": "Jefferson Nickel",
+   "slug": "jefferson-nickel",
+   "variants": [
+    {
+     "composition": "75% copper, 25% nickel",
+     "face": 0.05,
+     "gross_g": 5.0,
+     "label": "Copper-nickel (1938\u20131942)",
+     "metals": {
+      "HG": 0.75,
+      "NI": 0.25
+     },
+     "notes": "Some 1942-P and all 1942-D are copper-nickel",
+     "slug": "jefferson-nickel-1938-1942",
+     "year_end": 1942,
+     "year_start": 1938
+    },
+    {
+     "composition": "56% copper, 35% silver, 9% manganese",
+     "face": 0.05,
+     "gross_g": 5.0,
+     "label": "Wartime silver (1942\u20131945)",
+     "metals": {
+      "HG": 0.56,
+      "MN": 0.09,
+      "XAG": 0.35
+     },
+     "notes": "Large mint mark (P, D or S) above Monticello",
+     "slug": "jefferson-nickel-war",
+     "year_end": 1945,
+     "year_start": 1942
+    },
+    {
+     "composition": "75% copper, 25% nickel",
+     "face": 0.05,
+     "gross_g": 5.0,
+     "label": "Copper-nickel (1946\u2013present)",
+     "metals": {
+      "HG": 0.75,
+      "NI": 0.25
+     },
+     "notes": null,
+     "slug": "jefferson-nickel-1946-present",
+     "year_end": null,
+     "year_start": 1946
+    }
+   ]
+  },
+  {
+   "category": "dime",
+   "name": "Barber Dime",
+   "slug": "barber-dime",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.1,
+     "gross_g": 2.5,
+     "label": "90% silver (1892\u20131916)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "barber-dime",
+     "year_end": 1916,
+     "year_start": 1892
+    }
+   ]
+  },
+  {
+   "category": "dime",
+   "name": "Mercury Dime",
+   "slug": "mercury-dime",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.1,
+     "gross_g": 2.5,
+     "label": "90% silver (1916\u20131945)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "mercury-dime",
+     "year_end": 1945,
+     "year_start": 1916
+    }
+   ]
+  },
+  {
+   "category": "dime",
+   "name": "Roosevelt Dime",
+   "slug": "roosevelt-dime",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.1,
+     "gross_g": 2.5,
+     "label": "90% silver (1946\u20131964)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "roosevelt-dime-silver",
+     "year_end": 1964,
+     "year_start": 1946
+    },
+    {
+     "composition": "91.67% copper, 8.33% nickel",
+     "face": 0.1,
+     "gross_g": 2.268,
+     "label": "Clad (1965\u2013present)",
+     "metals": {
+      "HG": 0.9167,
+      "NI": 0.0833
+     },
+     "notes": null,
+     "slug": "roosevelt-dime-clad",
+     "year_end": null,
+     "year_start": 1965
+    }
+   ]
+  },
+  {
+   "category": "quarter",
+   "name": "Barber Quarter",
+   "slug": "barber-quarter",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.25,
+     "gross_g": 6.25,
+     "label": "90% silver (1892\u20131916)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "barber-quarter",
+     "year_end": 1916,
+     "year_start": 1892
+    }
+   ]
+  },
+  {
+   "category": "quarter",
+   "name": "Standing Liberty Quarter",
+   "slug": "standing-liberty-quarter",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.25,
+     "gross_g": 6.25,
+     "label": "90% silver (1916\u20131930)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "standing-liberty-quarter",
+     "year_end": 1930,
+     "year_start": 1916
+    }
+   ]
+  },
+  {
+   "category": "quarter",
+   "name": "Washington Quarter",
+   "slug": "washington-quarter",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.25,
+     "gross_g": 6.25,
+     "label": "90% silver (1932\u20131964)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "washington-quarter-silver",
+     "year_end": 1964,
+     "year_start": 1932
+    },
+    {
+     "composition": "91.67% copper, 8.33% nickel",
+     "face": 0.25,
+     "gross_g": 5.67,
+     "label": "Clad (1965\u2013present)",
+     "metals": {
+      "HG": 0.9167,
+      "NI": 0.0833
+     },
+     "notes": null,
+     "slug": "washington-quarter-clad",
+     "year_end": null,
+     "year_start": 1965
+    }
+   ]
+  },
+  {
+   "category": "half",
+   "name": "Barber Half Dollar",
+   "slug": "barber-half",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.5,
+     "gross_g": 12.5,
+     "label": "90% silver (1892\u20131915)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "barber-half",
+     "year_end": 1915,
+     "year_start": 1892
+    }
+   ]
+  },
+  {
+   "category": "half",
+   "name": "Walking Liberty Half Dollar",
+   "slug": "walking-liberty-half",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.5,
+     "gross_g": 12.5,
+     "label": "90% silver (1916\u20131947)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "walking-liberty-half",
+     "year_end": 1947,
+     "year_start": 1916
+    }
+   ]
+  },
+  {
+   "category": "half",
+   "name": "Franklin Half Dollar",
+   "slug": "franklin-half",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.5,
+     "gross_g": 12.5,
+     "label": "90% silver (1948\u20131963)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "franklin-half",
+     "year_end": 1963,
+     "year_start": 1948
+    }
+   ]
+  },
+  {
+   "category": "half",
+   "name": "Kennedy Half Dollar",
+   "slug": "kennedy-half",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 0.5,
+     "gross_g": 12.5,
+     "label": "90% silver (1964)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "kennedy-half-1964",
+     "year_end": 1964,
+     "year_start": 1964
+    },
+    {
+     "composition": "40% silver, 60% copper",
+     "face": 0.5,
+     "gross_g": 11.5,
+     "label": "40% silver (1965\u20131970)",
+     "metals": {
+      "HG": 0.6,
+      "XAG": 0.4
+     },
+     "notes": null,
+     "slug": "kennedy-half-40",
+     "year_end": 1970,
+     "year_start": 1965
+    },
+    {
+     "composition": "91.67% copper, 8.33% nickel",
+     "face": 0.5,
+     "gross_g": 11.34,
+     "label": "Clad (1971\u2013present)",
+     "metals": {
+      "HG": 0.9167,
+      "NI": 0.0833
+     },
+     "notes": null,
+     "slug": "kennedy-half-clad",
+     "year_end": null,
+     "year_start": 1971
+    }
+   ]
+  },
+  {
+   "category": "dollar",
+   "name": "Morgan Dollar",
+   "slug": "morgan-dollar",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 1.0,
+     "gross_g": 26.73,
+     "label": "90% silver (1878\u20131904, 1921)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": "Not struck 1905\u20131920",
+     "slug": "morgan-dollar",
+     "year_end": 1921,
+     "year_start": 1878
+    }
+   ]
+  },
+  {
+   "category": "dollar",
+   "name": "Peace Dollar",
+   "slug": "peace-dollar",
+   "variants": [
+    {
+     "composition": "90% silver, 10% copper",
+     "face": 1.0,
+     "gross_g": 26.73,
+     "label": "90% silver (1921\u20131935)",
+     "metals": {
+      "HG": 0.1,
+      "XAG": 0.9
+     },
+     "notes": null,
+     "slug": "peace-dollar",
+     "year_end": 1935,
+     "year_start": 1921
+    }
+   ]
+  },
+  {
+   "category": "dollar",
+   "name": "Eisenhower Dollar",
+   "slug": "eisenhower-dollar",
+   "variants": [
+    {
+     "composition": "40% silver, 60% copper",
+     "face": 1.0,
+     "gross_g": 24.59,
+     "label": "40% silver (1971\u20131976)",
+     "metals": {
+      "HG": 0.6,
+      "XAG": 0.4
+     },
+     "notes": "S-mint collector issues only",
+     "slug": "eisenhower-dollar-40",
+     "year_end": 1976,
+     "year_start": 1971
+    },
+    {
+     "composition": "91.67% copper, 8.33% nickel",
+     "face": 1.0,
+     "gross_g": 22.68,
+     "label": "Clad (1971\u20131978)",
+     "metals": {
+      "HG": 0.9167,
+      "NI": 0.0833
+     },
+     "notes": null,
+     "slug": "eisenhower-dollar-clad",
+     "year_end": 1978,
+     "year_start": 1971
+    }
+   ]
+  },
+  {
+   "category": "dollar",
+   "name": "Susan B. Anthony Dollar",
+   "slug": "susan-b-anthony-dollar",
+   "variants": [
+    {
+     "composition": "91.67% copper, 8.33% nickel",
+     "face": 1.0,
+     "gross_g": 8.1,
+     "label": "Clad (1979\u20131981, 1999)",
+     "metals": {
+      "HG": 0.9167,
+      "NI": 0.0833
+     },
+     "notes": "Not struck 1982\u20131998",
+     "slug": "susan-b-anthony-dollar",
+     "year_end": 1999,
+     "year_start": 1979
+    }
+   ]
+  },
+  {
+   "category": "dollar",
+   "name": "Sacagawea / Presidential / Native American Dollar",
+   "slug": "golden-dollar",
+   "variants": [
+    {
+     "composition": "88.5% copper, 6% zinc, 3.5% manganese, 2% nickel",
+     "face": 1.0,
+     "gross_g": 8.1,
+     "label": "Manganese brass (2000\u2013present)",
+     "metals": {
+      "HG": 0.885,
+      "MN": 0.035,
+      "NI": 0.02,
+      "ZN": 0.06
+     },
+     "notes": null,
+     "slug": "golden-dollar",
+     "year_end": null,
+     "year_start": 2000
+    }
+   ]
+  },
+  {
+   "category": "gold",
+   "name": "Gold Dollar",
+   "slug": "gold-dollar",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 1.0,
+     "gross_g": 1.672,
+     "label": "90% gold (1849\u20131889)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "gold-dollar",
+     "year_end": 1889,
+     "year_start": 1849
+    }
+   ]
+  },
+  {
+   "category": "gold",
+   "name": "$2.50 Quarter Eagle",
+   "slug": "quarter-eagle",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 2.5,
+     "gross_g": 4.18,
+     "label": "90% gold (1840\u20131929)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Liberty 1840\u20131907, Indian 1908\u20131929",
+     "slug": "quarter-eagle",
+     "year_end": 1929,
+     "year_start": 1840
+    }
+   ]
+  },
+  {
+   "category": "gold",
+   "name": "$3 Gold Piece",
+   "slug": "three-dollar-gold",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 3.0,
+     "gross_g": 5.015,
+     "label": "90% gold (1854\u20131889)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": null,
+     "slug": "three-dollar-gold",
+     "year_end": 1889,
+     "year_start": 1854
+    }
+   ]
+  },
+  {
+   "category": "gold",
+   "name": "$5 Half Eagle",
+   "slug": "half-eagle",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 5.0,
+     "gross_g": 8.359,
+     "label": "90% gold (1839\u20131929)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Liberty 1839\u20131908, Indian 1908\u20131929",
+     "slug": "half-eagle",
+     "year_end": 1929,
+     "year_start": 1839
+    }
+   ]
+  },
+  {
+   "category": "gold",
+   "name": "$10 Eagle",
+   "slug": "eagle",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 10.0,
+     "gross_g": 16.718,
+     "label": "90% gold (1838\u20131933)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Liberty 1838\u20131907, Indian 1907\u20131933",
+     "slug": "eagle",
+     "year_end": 1933,
+     "year_start": 1838
+    }
+   ]
+  },
+  {
+   "category": "gold",
+   "name": "$20 Double Eagle",
+   "slug": "double-eagle",
+   "variants": [
+    {
+     "composition": "90% gold, 10% copper",
+     "face": 20.0,
+     "gross_g": 33.436,
+     "label": "90% gold (1850\u20131933)",
+     "metals": {
+      "HG": 0.1,
+      "XAU": 0.9
+     },
+     "notes": "Liberty 1850\u20131907, Saint-Gaudens 1907\u20131933",
+     "slug": "double-eagle",
+     "year_end": 1933,
+     "year_start": 1850
+    }
+   ]
+  },
+  {
+   "category": "bullion",
+   "name": "American Silver Eagle",
+   "slug": "american-silver-eagle",
+   "variants": [
+    {
+     "composition": ".999 silver",
+     "face": 1.0,
+     "gross_g": 31.103,
+     "label": "1 oz (1986\u2013present)",
+     "metals": {
+      "XAG": 0.999
+     },
+     "notes": null,
+     "slug": "american-silver-eagle",
+     "year_end": null,
+     "year_start": 1986
+    }
+   ]
+  },
+  {
+   "category": "bullion",
+   "name": "American Gold Eagle",
+   "slug": "american-gold-eagle",
+   "variants": [
+    {
+     "composition": "91.67% gold, 3% silver, 5.33% copper",
+     "face": 50.0,
+     "gross_g": 33.931,
+     "label": "1 oz (1986\u2013present)",
+     "metals": {
+      "HG": 0.0533,
+      "XAG": 0.03,
+      "XAU": 0.9167
+     },
+     "notes": null,
+     "slug": "american-gold-eagle-1oz",
+     "year_end": null,
+     "year_start": 1986
+    },
+    {
+     "composition": "91.67% gold, 3% silver, 5.33% copper",
+     "face": 25.0,
+     "gross_g": 16.966,
+     "label": "1/2 oz (1986\u2013present)",
+     "metals": {
+      "HG": 0.0533,
+      "XAG": 0.03,
+      "XAU": 0.9167
+     },
+     "notes": null,
+     "slug": "american-gold-eagle-half",
+     "year_end": null,
+     "year_start": 1986
+    },
+    {
+     "composition": "91.67% gold, 3% silver, 5.33% copper",
+     "face": 10.0,
+     "gross_g": 8.483,
+     "label": "1/4 oz (1986\u2013present)",
+     "metals": {
+      "HG": 0.0533,
+      "XAG": 0.03,
+      "XAU": 0.9167
+     },
+     "notes": null,
+     "slug": "american-gold-eagle-quarter",
+     "year_end": null,
+     "year_start": 1986
+    },
+    {
+     "composition": "91.67% gold, 3% silver, 5.33% copper",
+     "face": 5.0,
+     "gross_g": 3.393,
+     "label": "1/10 oz (1986\u2013present)",
+     "metals": {
+      "HG": 0.0533,
+      "XAG": 0.03,
+      "XAU": 0.9167
+     },
+     "notes": null,
+     "slug": "american-gold-eagle-tenth",
+     "year_end": null,
+     "year_start": 1986
+    }
+   ]
+  },
+  {
+   "category": "bullion",
+   "name": "American Gold Buffalo",
+   "slug": "american-gold-buffalo",
+   "variants": [
+    {
+     "composition": ".9999 gold",
+     "face": 50.0,
+     "gross_g": 31.108,
+     "label": "1 oz (2006\u2013present)",
+     "metals": {
+      "XAU": 0.9999
+     },
+     "notes": null,
+     "slug": "american-gold-buffalo",
+     "year_end": null,
+     "year_start": 2006
+    }
+   ]
+  },
+  {
+   "category": "bullion",
+   "name": "American Platinum Eagle",
+   "slug": "american-platinum-eagle",
+   "variants": [
+    {
+     "composition": ".9995 platinum",
+     "face": 100.0,
+     "gross_g": 31.12,
+     "label": "1 oz (1997\u2013present)",
+     "metals": {
+      "XPT": 0.9995
+     },
+     "notes": null,
+     "slug": "american-platinum-eagle-1oz",
+     "year_end": null,
+     "year_start": 1997
+    }
+   ]
+  },
+  {
+   "category": "bullion",
+   "name": "American Palladium Eagle",
+   "slug": "american-palladium-eagle",
+   "variants": [
+    {
+     "composition": ".9995 palladium",
+     "face": 25.0,
+     "gross_g": 31.12,
+     "label": "1 oz (2017\u2013present)",
+     "metals": {
+      "XPD": 0.9995
+     },
+     "notes": null,
+     "slug": "american-palladium-eagle",
+     "year_end": null,
+     "year_start": 2017
+    }
+   ]
+  }
+ ]
+}
