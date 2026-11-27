@@ -1,10 +1,10 @@
 {
  "metals": {
   "HG": {
-   "as_of": "2026-11-25T23:59:59Z",
+   "as_of": "2026-11-26T23:59:59Z",
    "grams_per_unit": 453.59237,
    "name": "Copper",
-   "price": 5.3641,
+   "price": 5.3804,
    "source": "gold-api",
    "unit": "lb"
   },
@@ -25,34 +25,34 @@
    "unit": "lb"
   },
   "XAG": {
-   "as_of": "2026-11-25T23:59:59Z",
+   "as_of": "2026-11-26T23:59:59Z",
    "grams_per_unit": 31.1034768,
    "name": "Silver",
-   "price": 41.16,
+   "price": 41.265,
    "source": "gold-api",
    "unit": "ozt"
   },
   "XAU": {
-   "as_of": "2026-11-25T23:59:59Z",
+   "as_of": "2026-11-26T23:59:59Z",
    "grams_per_unit": 31.1034768,
    "name": "Gold",
-   "price": 3582.5,
+   "price": 3566.8999,
    "source": "gold-api",
    "unit": "ozt"
   },
   "XPD": {
-   "as_of": "2026-11-25T23:59:59Z",
+   "as_of": "2026-11-26T23:59:59Z",
    "grams_per_unit": 31.1034768,
    "name": "Palladium",
-   "price": 853.75,
+   "price": 859.25,
    "source": "gold-api",
    "unit": "ozt"
   },
   "XPT": {
-   "as_of": "2026-11-25T23:59:59Z",
+   "as_of": "2026-11-26T23:59:59Z",
    "grams_per_unit": 31.1034768,
    "name": "Platinum",
-   "price": 1271.2,
+   "price": 1278.1,
    "source": "gold-api",
    "unit": "ozt"
   },
